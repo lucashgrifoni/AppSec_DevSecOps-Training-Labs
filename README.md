@@ -18,12 +18,12 @@ This repository serves as a centralized index to help security professionals, de
   * [🌐 Web Applications](#-web-applications) (14 labs)
   * [🔌 APIs](#-apis) (5 labs)
   * [📱 Mobile](#-mobile) (5 labs)
-  * [☁️ Cloud Infrastructure](#-cloud-infrastructure) (5 labs)
+  * [☁️ Cloud Infrastructure](#cloud-infrastructure) (5 labs)
   * [🔄 CI/CD & Supply Chain](#-cicd--supply-chain) (7 labs)
-  * [☸️ Kubernetes](#-kubernetes) (2 labs)
+  * [☸️ Kubernetes](#kubernetes) (2 labs)
   * [💻 Language-Specific & Code Review](#-language-specific--code-review) (8 labs)
   * [📚 Collections & Directories](#-collections--directories) (20 labs)
-* [🛠️ Open Source Security Tools](#-open-source-security-tools)
+* [🛠️ Open Source Security Tools](#open-source-security-tools)
 * [🎯 Training Paths](#-training-paths)
 * [👥 Credits](#-credits)
 
@@ -258,6 +258,7 @@ This repository serves as a centralized index to help security professionals, de
 - **Training focus**: `Mobile Security` `SAST` `Pentest` `Android` `Secure Code Review`
 - **Upstream**: [GitHub](https://github.com/ashishb/android-security-awesome)
 
+<a id="cloud-infrastructure"></a>
 ### ☁️ Cloud Infrastructure
 
 ![Cloud](https://img.shields.io/badge/Labs-5-blue.svg)
@@ -354,6 +355,7 @@ This repository serves as a centralized index to help security professionals, de
 - **Training focus**: `CI/CD` `DevSecOps` `Supply Chain` `DAST`
 - **Upstream**: [GitLab](https://gitlab.com/devsecops8471116/applying-dev-sec-ops-to-juice-shop)
 
+<a id="kubernetes"></a>
 ### ☸️ Kubernetes
 
 ![Kubernetes](https://img.shields.io/badge/Labs-2-blue.svg)
@@ -582,6 +584,7 @@ This repository serves as a centralized index to help security professionals, de
 - **Training focus**: `Injection` `DAST` `Pentest` `Database Security`
 - **Upstream**: [GitHub](https://github.com/incredibleindishell/sqlite-lab)
 
+<a id="open-source-security-tools"></a>
 ## 🛠️ Open Source Security Tools
 
 > This section lists recommended open source security tools for testing and analyzing the vulnerable labs in this catalog. All tools listed are open source and freely available.
