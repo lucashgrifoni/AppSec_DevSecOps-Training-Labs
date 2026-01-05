@@ -2,7 +2,7 @@
 
 > A professional catalog of deliberately vulnerable applications and environments for security training, testing, and tool validation.
 
-[![Total Labs](https://img.shields.io/badge/Total%20Labs-68-blue.svg)](https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs)
+[![Total Labs](https://img.shields.io/badge/Total%20Labs-67-blue.svg)](https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green.svg)](LICENSE)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -15,7 +15,7 @@ This repository serves as a centralized index to help security professionals, de
 - [How to Use This Catalog](#-how-to-use-this-catalog)
 - [Training Focus Legend](#-training-focus-legend)
 - [Labs by Category](#-labs-by-category)
-  - [🌐 Web Applications](#-web-applications) `15 labs`
+  - [🌐 Web Applications](#-web-applications) `14 labs`
   - [🔌 APIs](#-apis) `5 labs`
   - [📱 Mobile](#-mobile) `5 labs`
   - [☁️ Cloud Infrastructure](#️-cloud-infrastructure) `6 labs`
@@ -66,7 +66,7 @@ This repository serves as a centralized index to help security professionals, de
 
 ### 🌐 Web Applications
 
-![Web Apps](https://img.shields.io/badge/Labs-15-blue.svg)
+![Web Apps](https://img.shields.io/badge/Labs-14-blue.svg)
 
 ---
 
@@ -125,13 +125,6 @@ This repository serves as a centralized index to help security professionals, de
 
 - **Training focus**: `API Security` `DAST` `Pentest` `REST`
 - **Upstream**: [GitHub](https://github.com/payatu/Tiredful-API)
-
-#### Vulnerable Flask App
-
-> Python Flask web application with common security vulnerabilities.
-
-- **Training focus**: `SAST` `DAST` `Pentest` `Secure Code Review` `Python`
-- **Upstream**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-Flask-App)
 
 #### Application Vulnerable Log4Shell
 
@@ -303,7 +296,7 @@ This repository serves as a centralized index to help security professionals, de
 > GCP-based vulnerable application for cloud security training.
 
 - **Training focus**: `Cloud Security` `IaC` `Pentest` `GCP`
-- **Upstream**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-Google-Cloud-Platform)
+- **Upstream**: [GitHub](https://github.com/m6a-UdS/dvca)
 
 ### 🔄 CI/CD & Supply Chain
 
@@ -412,7 +405,7 @@ This repository serves as a centralized index to help security professionals, de
 > Java Spring application with security vulnerabilities.
 
 - **Training focus**: `SAST` `Secure Code Review` `Java` `Spring` `Injection`
-- **Upstream**: [GitHub](https://github.com/lucashgrifoni/Application-Java-Spring-Vulny)
+- **Upstream**: [GitHub](https://github.com/kaakaww/javaspringvulny)
 
 #### Java Application Vulnerable Lab
 
