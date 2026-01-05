@@ -12,11 +12,10 @@ A centralized repository (monorepo) indexing dozens of vulnerable labs for secur
   - [Web Applications](#web-applications) (15)
   - [API](#api) (7)
   - [Mobile](#mobile) (5)
-  - [Cloud](#cloud) (3)
-  - [CI/CD](#cicd) (0)
+  - [Cloud](#cloud) (9)
+  - [CI/CD](#cicd) (7)
   - [Language-Specific](#language-specific) (5)
   - [Miscellaneous](#miscellaneous) (22)
-- [External Resources](#external-resources)
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 
@@ -130,17 +129,31 @@ Most labs support Docker. The recommended approach:
 | Oversecured Vulnerable Ios App | Vulnerable iOS application for mobile security testing. | [GitHub](https://github.com/lucashgrifoni/Oversecured-Vulnerable-IOS-App) | `labs/mobile/oversecured-vulnerable-ios-app` |
 | Vulnerable Android Application | Vulnerable Android application for mobile security testing. | [GitHub](https://github.com/lucashgrifoni/Vulnerable-Android-Application) | `labs/mobile/vulnerable-android-application` |
 
-### Cloud (3)
+### Cloud (9)
 
 | Name | Description | Link | Path |
 |------|-------------|------|------|
 | Application Vulnerable Kubernetes Goat | Vulnerable Kubernetes environment for container security. | [GitHub](https://github.com/lucashgrifoni/Application-Vulnerable-Kubernetes-Goat) | `labs/cloud/application-vulnerable-kubernetes-goat` |
+| Awsgoat | Vulnerable AWS infrastructure for cloud security training. | [GitHub](https://github.com/ine-labs/AWSGoat) | `labs/cloud/awsgoat` |
 | Awsgoat A Damn Vulnerable Aws Infrastructure | Vulnerable AWS infrastructure for cloud security training. | [GitHub](https://github.com/lucashgrifoni/AWSGoat-A-Damn-Vulnerable-AWS-Infrastructure) | `labs/cloud/awsgoat-a-damn-vulnerable-aws-infrastructure` |
+| Azuregoat | Vulnerable Azure infrastructure for cloud security training. | [GitHub](https://github.com/ine-labs/AzureGoat) | `labs/cloud/azuregoat` |
+| Dvca | Damn Vulnerable Cloud Application for cloud security testing. | [GitHub](https://github.com/m6a-UdS/dvca) | `labs/cloud/dvca` |
+| Gcp Goat | Vulnerable GCP infrastructure for cloud security training. | [GitHub](https://github.com/JOSHUAJEBARAJ/GCP-Goat) | `labs/cloud/gcp-goat` |
+| Kubernetes Goat | Vulnerable Kubernetes cluster for container security. | [GitHub](https://github.com/madhuakula/kubernetes-goat) | `labs/cloud/kubernetes-goat` |
+| Owasp Eks Goat | Vulnerable AWS EKS cluster for Kubernetes security. | [GitHub](https://github.com/OWASP/www-project-eks-goat) | `labs/cloud/www-project-eks-goat` |
 | Vulnerable Google Cloud Platform | Vulnerable application for security testing and training. | [GitHub](https://github.com/lucashgrifoni/Vulnerable-Google-Cloud-Platform) | `labs/cloud/vulnerable-google-cloud-platform` |
 
-### CI/CD (0)
+### CI/CD (7)
 
-No labs in this category yet.
+| Name | Description | Link | Path |
+|------|-------------|------|------|
+| Applying Dev Sec Ops To Juice Shop | DevSecOps pipeline integration with Juice Shop. | [GitLab](https://gitlab.com/devsecops8471116/applying-dev-sec-ops-to-juice-shop) | `labs/web/applying-dev-sec-ops-to-juice-shop` |
+| Azuredevopslabs | Azure DevOps labs with pipeline security scenarios. | [GitHub](https://github.com/microsoft/azuredevopslabs) | `labs/cicd/azuredevopslabs` |
+| Cicd Goat | Vulnerable CI/CD environment with multiple pipeline scenarios. | [GitHub](https://github.com/cider-security-research/cicd-goat) | `labs/cicd/cicd-goat` |
+| Devsecops Lab | DevSecOps lab with GitLab CE setup and pipeline security practices. | [GitHub](https://github.com/Cloufish/DevSecOps-Lab) | `labs/misc/devsecops-lab` |
+| Github Actions Goat | Vulnerable GitHub Actions workflows for CI/CD security testing. | [GitHub](https://github.com/step-security/github-actions-goat) | `labs/cicd/github-actions-goat` |
+| Implement Security Through Pipeline Using Devops | Microsoft Learning lab for Azure DevOps pipeline security. | [GitHub](https://github.com/MicrosoftLearning/implement-security-through-pipeline-using-devops) | `labs/cicd/implement-security-through-pipeline-using-devops` |
+| Railsgoat Cicd Lab | RailsGoat with CI/CD security scenarios. | [GitHub](https://github.com/dachiefjustice/railsgoat-cicd-lab) | `labs/cicd/railsgoat-cicd-lab` |
 
 ### Language-Specific (5)
 
@@ -178,43 +191,6 @@ No labs in this category yet.
 | Vulhub Vulnerable Docker Application | Vulnerable Docker containerized application. | [GitHub](https://github.com/lucashgrifoni/Vulhub-Vulnerable-Docker-Application) | `labs/misc/vulhub-vulnerable-docker-application` |
 | Vulnerable Adversely Programmed Interface | Vulnerable application for security testing and training. | [GitHub](https://github.com/lucashgrifoni/Vulnerable-Adversely-Programmed-Interface) | `labs/misc/vulnerable-adversely-programmed-interface` |
 | Vulnerable Client Server Application Vucsa | Vulnerable application for security testing and training. | [GitHub](https://github.com/lucashgrifoni/Vulnerable-Client-Server-Application-VuCSA) | `labs/misc/vulnerable-client-server-application-vucsa` |
-
-## External Resources
-
-The following resources are referenced but not included as submodules (external links, non-GitHub repositories, or resources that require manual access):
-
-- **AWSGoat**: A Damn Vulnerable AWS Infrastructure - [Link](https://lnkd.in/dq2cYPG2)
-- **AzureGoat**: A Damn Vulnerable Azure Infrastructure - [Link](https://lnkd.in/dKMMrESA)
-- **GCPGoat**: A Damn Vulnerable GCP Infrastructure - [Link](https://lnkd.in/dMVmNuvZ)
-- **DeFi**: Damn Vulnerable DeFi - [Link](https://lnkd.in/dbWesvxW)
-- **Webpentest**: A Damn Vulnerable Web Application - [Link](https://lnkd.in/dNJxX-Fe)
-- **WebSockets**: A Damn Vulnerable Web Sockets - [Link](https://lnkd.in/dMbJgP5h)
-- **DVHMA**: Damn Vulnerable Hybrid Mobile App - [Link](https://lnkd.in/dSMZMuzZ)
-- **CICD**: Deliberately vulnerable CI/CD environment - [Link](https://lnkd.in/dCxZb88q)
-- **GraphQL**: Damn Vulnerable GraphQL Application - [Link](https://lnkd.in/d5V6P9HA)
-- **WebServices**: Damn Vulnerable Web Services - [Link](https://lnkd.in/dAu8HAyd)
-- **VamPI**: Vulnerable API - [Link](https://lnkd.in/dRPpBNjj)
-- **DVSA**: Damn Vulnerable Serverless Application - [Link](https://lnkd.in/dnvdNcfq)
-- **DVTA**: DVTA is a Vulnerable Thick Client Application - [Link](https://lnkd.in/dDhEDgdx)
-- **DVJA**: Damn Vulnerable Java Application - [Link](https://lnkd.in/dqFyjYWP)
-- **DVID**: Damn Vulnerable IoT Device - [Link](https://lnkd.in/dNV2RjUj)
-- **DVPWA**: Damn Vulnerable Python Web Application - [Link](https://lnkd.in/diDvsz8u)
-- **DVAS**: Damn Vulnerable Application Scanner - [Link](https://lnkd.in/dq_aC4pX)
-- **DVB**: Damn Vulnerable Bank - [Link](https://lnkd.in/dyGWJzxD)
-- **DVWPS**: Damn Vulnerable WordPress Site - [Link](https://lnkd.in/dkY-tXHe)
-- **DVNA**: Damn Vulnerable NodeJS Application - [Link](https://lnkd.in/ds3JReM5)
-- **DVRA**: Damn Vulnerable Ruby on Rails - [Link](https://lnkd.in/djQ_ehzi)
-- **DVGM**: Damn Vulnerable Grade Management - [Link](https://lnkd.in/dAepn4K7)
-- **Tiredful**: Tiredful API - [Link](https://lnkd.in/d3NjivMu)
-- **DVCSharp**: Damn Vulnerable C# Application - [Link](https://lnkd.in/d8cZxdnr)
-- **DVIA**: Damn Vulnerable iOS App - [Link](https://lnkd.in/dJqPp-d9)
-- **DVIA2**: Damn Vulnerable iOS App 2 - [Link](https://lnkd.in/dhGUXurv)
-- **DVRF**: Damn Vulnerable Router Firmware - [Link](https://lnkd.in/dUda_XsF)
-- **DVFaaS**: Damn Vulnerable Functions as a Service - [Link](https://lnkd.in/drVpszwD)
-- **DVCA**: Damn Vulnerable Cloud Application - [Link](https://lnkd.in/dPyKYKw4)
-- **CRPYA**: Certified Red Team Python Analyst - [Link](https://lnkd.in/d-e_nXVW)
-
-*Note: These external resources may require manual access or may point to repositories outside GitHub. Please follow the upstream documentation for setup instructions.*
 
 ## Known Issues
 

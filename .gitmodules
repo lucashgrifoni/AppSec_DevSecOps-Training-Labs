@@ -160,3 +160,105 @@
 [submodule "labs/misc/andro-vuln-test"]
 	path = labs/misc/andro-vuln-test
 	url = https://github.com/lucashgrifoni/andro-vuln-test
+[submodule "labs/cicd/github-actions-goat"]
+	path = labs/cicd/github-actions-goat
+	url = https://github.com/step-security/github-actions-goat
+[submodule "labs/cicd/cicd-goat"]
+	path = labs/cicd/cicd-goat
+	url = https://github.com/cider-security-research/cicd-goat
+[submodule "labs/misc/devsecops-lab"]
+	path = labs/misc/devsecops-lab
+	url = https://github.com/Cloufish/DevSecOps-Lab
+[submodule "labs/web/applying-dev-sec-ops-to-juice-shop"]
+	path = labs/web/applying-dev-sec-ops-to-juice-shop
+	url = https://gitlab.com/devsecops8471116/applying-dev-sec-ops-to-juice-shop
+[submodule "labs/misc/vulhub"]
+	path = labs/misc/vulhub
+	url = https://github.com/vulhub/vulhub
+[submodule "labs/cicd/azuredevopslabs"]
+	path = labs/cicd/azuredevopslabs
+	url = https://github.com/microsoft/azuredevopslabs
+[submodule "labs/cicd/implement-security-through-pipeline-using-devops"]
+	path = labs/cicd/implement-security-through-pipeline-using-devops
+	url = https://github.com/MicrosoftLearning/implement-security-through-pipeline-using-devops
+[submodule "labs/cloud/kubernetes-goat"]
+	path = labs/cloud/kubernetes-goat
+	url = https://github.com/madhuakula/kubernetes-goat
+[submodule "labs/cloud/www-project-eks-goat"]
+	path = labs/cloud/www-project-eks-goat
+	url = https://github.com/OWASP/www-project-eks-goat
+[submodule "labs/cicd/railsgoat-cicd-lab"]
+	path = labs/cicd/railsgoat-cicd-lab
+	url = https://github.com/dachiefjustice/railsgoat-cicd-lab
+[submodule "labs/cloud/awsgoat"]
+	path = labs/cloud/awsgoat
+	url = https://github.com/ine-labs/AWSGoat
+[submodule "labs/cloud/azuregoat"]
+	path = labs/cloud/azuregoat
+	url = https://github.com/ine-labs/AzureGoat
+[submodule "labs/cloud/gcp-goat"]
+	path = labs/cloud/gcp-goat
+	url = https://github.com/JOSHUAJEBARAJ/GCP-Goat
+[submodule "labs/web/dvwa"]
+	path = labs/web/dvwa
+	url = https://github.com/digininja/DVWA
+[submodule "labs/web/dvws-node"]
+	path = labs/web/dvws-node
+	url = https://github.com/snoopysecurity/dvws-node
+[submodule "labs/mobile/dvhma"]
+	path = labs/mobile/dvhma
+	url = https://github.com/logicalhacking/DVHMA
+[submodule "labs/misc/dvws"]
+	path = labs/misc/dvws
+	url = https://github.com/snoopysecurity/dvws
+[submodule "labs/api/vampi"]
+	path = labs/api/vampi
+	url = https://github.com/erev0s/VAmPI
+[submodule "labs/misc/dvsa"]
+	path = labs/misc/dvsa
+	url = https://github.com/OWASP/DVSA
+[submodule "labs/misc/dvta"]
+	path = labs/misc/dvta
+	url = https://github.com/srini0x00/dvta
+[submodule "labs/language/dvja"]
+	path = labs/language/dvja
+	url = https://github.com/appsecco/dvja
+[submodule "labs/misc/dvid"]
+	path = labs/misc/dvid
+	url = https://github.com/Vulcainreo/DVID
+[submodule "labs/language/dvpwa"]
+	path = labs/language/dvpwa
+	url = https://github.com/anxolerd/dvpwa
+[submodule "labs/web/dvwps"]
+	path = labs/web/dvwps
+	url = https://github.com/vianasw/dvwps
+[submodule "labs/misc/dvna"]
+	path = labs/misc/dvna
+	url = https://github.com/appsecco/dvna
+[submodule "labs/language/dvra"]
+	path = labs/language/dvra
+	url = https://github.com/guilleiguaran/dvra
+[submodule "labs/misc/dvgm"]
+	path = labs/misc/dvgm
+	url = https://git.logicalhacking.com/BrowserSecurity/DVGM
+[submodule "labs/web/tiredful-api"]
+	path = labs/web/tiredful-api
+	url = https://github.com/payatu/Tiredful-API
+[submodule "labs/api/dvcsharp-api"]
+	path = labs/api/dvcsharp-api
+	url = https://github.com/appsecco/dvcsharp-api
+[submodule "labs/mobile/dvia"]
+	path = labs/mobile/dvia
+	url = https://github.com/prateek147/DVIA
+[submodule "labs/mobile/dvia-v2"]
+	path = labs/mobile/dvia-v2
+	url = https://github.com/prateek147/DVIA-v2
+[submodule "labs/misc/dvrf"]
+	path = labs/misc/dvrf
+	url = https://github.com/praetorian-inc/DVRF
+[submodule "labs/cloud/dvca"]
+	path = labs/cloud/dvca
+	url = https://github.com/m6a-UdS/dvca
+[submodule "labs/language/crpya"]
+	path = labs/language/crpya
+	url = https://github.com/CyberSecurityUP/CRPYA
