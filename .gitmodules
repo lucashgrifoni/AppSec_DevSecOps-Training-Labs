@@ -1,0 +1,162 @@
+[submodule "labs/api/openapi-3-the-vulnerable-api"]
+	path = labs/api/openapi-3-the-vulnerable-api
+	url = https://github.com/lucashgrifoni/OpenAPI-3-The-Vulnerable-API
+[submodule "labs/api/damn-vulnerable-graphql-application"]
+	path = labs/api/damn-vulnerable-graphql-application
+	url = https://github.com/lucashgrifoni/Damn-Vulnerable-GraphQL-Application
+[submodule "labs/language/vulnerable-languages"]
+	path = labs/language/vulnerable-languages
+	url = https://github.com/lucashgrifoni/Vulnerable-Languages
+[submodule "labs/misc/dvfaas-damn-vulnerable-functions-as-a-service"]
+	path = labs/misc/dvfaas-damn-vulnerable-functions-as-a-service
+	url = https://github.com/lucashgrifoni/DVFaaS-Damn-Vulnerable-Functions-as-a-Service
+[submodule "labs/web/application-vulnerable-xslt-console"]
+	path = labs/web/application-vulnerable-xslt-console
+	url = https://github.com/lucashgrifoni/Application-Vulnerable-Xslt-Console
+[submodule "labs/web/application-vulnerable-otp"]
+	path = labs/web/application-vulnerable-otp
+	url = https://github.com/lucashgrifoni/Application-Vulnerable-OTP
+[submodule "labs/misc/application-vulnerable-lab-ssrf"]
+	path = labs/misc/application-vulnerable-lab-ssrf
+	url = https://github.com/lucashgrifoni/Application-Vulnerable-Lab-SSRF
+[submodule "labs/web/application-vulnerable-log4shell"]
+	path = labs/web/application-vulnerable-log4shell
+	url = https://github.com/lucashgrifoni/Application-Vulnerable-Log4Shell
+[submodule "labs/language/java-application-vulnerable-lab"]
+	path = labs/language/java-application-vulnerable-lab
+	url = https://github.com/lucashgrifoni/Java-Application-Vulnerable-Lab
+[submodule "labs/web/vulnlab-web-application-vulnerability-lab-project"]
+	path = labs/web/vulnlab-web-application-vulnerability-lab-project
+	url = https://github.com/lucashgrifoni/VulnLab-Web-Application-Vulnerability-Lab-Project
+[submodule "labs/misc/application-authentication-vulnerable-lab"]
+	path = labs/misc/application-authentication-vulnerable-lab
+	url = https://github.com/lucashgrifoni/Application-Authentication-Vulnerable-Lab
+[submodule "labs/web/web-application-vulnerable-asp.net-core-2.0"]
+	path = labs/web/web-application-vulnerable-asp.net-core-2.0
+	url = https://github.com/lucashgrifoni/Web-Application-Vulnerable-ASP.NET-Core-2.0
+[submodule "labs/language/application-java-spring-vulny"]
+	path = labs/language/application-java-spring-vulny
+	url = https://github.com/lucashgrifoni/Application-Java-Spring-Vulny
+[submodule "labs/api/sample-application-with-rest-api-endpoints"]
+	path = labs/api/sample-application-with-rest-api-endpoints
+	url = https://github.com/lucashgrifoni/Sample-Application-with-REST-API-Endpoints
+[submodule "labs/api/vyapi-the-modern-cloud-based-vulnerable-hybrid-android-app"]
+	path = labs/api/vyapi-the-modern-cloud-based-vulnerable-hybrid-android-app
+	url = https://github.com/lucashgrifoni/VyAPI-The-Modern-Cloud-Based-Vulnerable-Hybrid-Android-App
+[submodule "labs/misc/cors-misconfiguration-vulnerable-lab"]
+	path = labs/misc/cors-misconfiguration-vulnerable-lab
+	url = https://github.com/lucashgrifoni/CORS-misconfiguration-vulnerable-Lab
+[submodule "labs/misc/application-docker-vulnerable"]
+	path = labs/misc/application-docker-vulnerable
+	url = https://github.com/lucashgrifoni/Application-Docker-Vulnerable
+[submodule "labs/language/python-source-code-analysis"]
+	path = labs/language/python-source-code-analysis
+	url = https://github.com/lucashgrifoni/Python-Source-Code-Analysis
+[submodule "labs/misc/spring4shell-poc-application"]
+	path = labs/misc/spring4shell-poc-application
+	url = https://github.com/lucashgrifoni/Spring4Shell-PoC-Application
+[submodule "labs/web/vulnerable-web-application"]
+	path = labs/web/vulnerable-web-application
+	url = https://github.com/lucashgrifoni/Vulnerable-Web-Application
+[submodule "labs/web/owasp-vulnerable-web-applications-directory-project"]
+	path = labs/web/owasp-vulnerable-web-applications-directory-project
+	url = https://github.com/lucashgrifoni/OWASP-Vulnerable-Web-Applications-Directory-Project
+[submodule "labs/misc/public-pentesting-reports"]
+	path = labs/misc/public-pentesting-reports
+	url = https://github.com/lucashgrifoni/Public-Pentesting-Reports
+[submodule "labs/web/owasp-webgoat.net-docker-container"]
+	path = labs/web/owasp-webgoat.net-docker-container
+	url = https://github.com/lucashgrifoni/OWASP-WebGoat.NET-Docker-Container
+[submodule "labs/misc/examples-of-different-vulnerabilities-useful-for-testing-dast-and-sast-tools"]
+	path = labs/misc/examples-of-different-vulnerabilities-useful-for-testing-dast-and-sast-tools
+	url = https://github.com/lucashgrifoni/Examples-of-different-vulnerabilities-Useful-for-testing-DAST-and-SAST-tools
+[submodule "labs/misc/owasp-complete-vulnerable-labs-application-security"]
+	path = labs/misc/owasp-complete-vulnerable-labs-application-security
+	url = https://github.com/lucashgrifoni/OWASP-Complete-Vulnerable-Labs-Application-Security
+[submodule "labs/mobile/vulnerable-android-application"]
+	path = labs/mobile/vulnerable-android-application
+	url = https://github.com/lucashgrifoni/Vulnerable-Android-Application
+[submodule "labs/cloud/vulnerable-google-cloud-platform"]
+	path = labs/cloud/vulnerable-google-cloud-platform
+	url = https://github.com/lucashgrifoni/Vulnerable-Google-Cloud-Platform
+[submodule "labs/api/vulnerable-soap-service"]
+	path = labs/api/vulnerable-soap-service
+	url = https://github.com/lucashgrifoni/Vulnerable-Soap-Service
+[submodule "labs/mobile/insecure-and-vulnerable-android-application"]
+	path = labs/mobile/insecure-and-vulnerable-android-application
+	url = https://github.com/lucashgrifoni/Insecure-and-Vulnerable-Android-Application
+[submodule "labs/misc/owasp-vulnerable-app"]
+	path = labs/misc/owasp-vulnerable-app
+	url = https://github.com/lucashgrifoni/OWASP-Vulnerable-App
+[submodule "labs/mobile/oversecured-vulnerable-ios-app"]
+	path = labs/mobile/oversecured-vulnerable-ios-app
+	url = https://github.com/lucashgrifoni/Oversecured-Vulnerable-IOS-App
+[submodule "labs/misc/sqlite-lab"]
+	path = labs/misc/sqlite-lab
+	url = https://github.com/lucashgrifoni/sqlite-lab
+[submodule "labs/mobile/damn-vulnerable-hybrid-mobile-app"]
+	path = labs/mobile/damn-vulnerable-hybrid-mobile-app
+	url = https://github.com/lucashgrifoni/Damn-Vulnerable-Hybrid-Mobile-App
+[submodule "labs/mobile/oversecured-vulnerable-android-app"]
+	path = labs/mobile/oversecured-vulnerable-android-app
+	url = https://github.com/lucashgrifoni/Oversecured-Vulnerable-Android-App
+[submodule "labs/misc/vulnerable-adversely-programmed-interface"]
+	path = labs/misc/vulnerable-adversely-programmed-interface
+	url = https://github.com/lucashgrifoni/Vulnerable-Adversely-Programmed-Interface
+[submodule "labs/misc/vulnerable-client-server-application-vucsa"]
+	path = labs/misc/vulnerable-client-server-application-vucsa
+	url = https://github.com/lucashgrifoni/Vulnerable-Client-Server-Application-VuCSA
+[submodule "labs/web/vulnerable-flask-app"]
+	path = labs/web/vulnerable-flask-app
+	url = https://github.com/lucashgrifoni/Vulnerable-Flask-App
+[submodule "labs/misc/application-security"]
+	path = labs/misc/application-security
+	url = https://github.com/lucashgrifoni/Application-Security
+[submodule "labs/misc/vulhub-vulnerable-docker-application"]
+	path = labs/misc/vulhub-vulnerable-docker-application
+	url = https://github.com/lucashgrifoni/Vulhub-Vulnerable-Docker-Application
+[submodule "labs/web/damn-vulnerable-nodejs-application-dvna"]
+	path = labs/web/damn-vulnerable-nodejs-application-dvna
+	url = https://github.com/lucashgrifoni/Damn-Vulnerable-NodeJS-Application-DVNA
+[submodule "labs/web/application-juice-shop"]
+	path = labs/web/application-juice-shop
+	url = https://github.com/lucashgrifoni/Application-Juice-Shop
+[submodule "labs/api/vulnerable-api-security-application"]
+	path = labs/api/vulnerable-api-security-application
+	url = https://github.com/lucashgrifoni/Vulnerable-API-Security-Application
+[submodule "labs/web/application-react-vulnerable"]
+	path = labs/web/application-react-vulnerable
+	url = https://github.com/lucashgrifoni/Application-React-Vulnerable
+[submodule "labs/api/vulnerable-fastapi"]
+	path = labs/api/vulnerable-fastapi
+	url = https://github.com/lucashgrifoni/Vulnerable-FastAPI
+[submodule "labs/misc/template-injection-workshop"]
+	path = labs/misc/template-injection-workshop
+	url = https://github.com/lucashgrifoni/Template-Injection-Workshop
+[submodule "labs/web/application-vulnerable-node-express"]
+	path = labs/web/application-vulnerable-node-express
+	url = https://github.com/lucashgrifoni/Application-Vulnerable-Node-Express
+[submodule "labs/misc/dvms-damn-vulnerable-micro-services"]
+	path = labs/misc/dvms-damn-vulnerable-micro-services
+	url = https://github.com/lucashgrifoni/DVMS-Damn-Vulnerable-Micro-Services
+[submodule "labs/misc/owasp-wrongsecrets"]
+	path = labs/misc/owasp-wrongsecrets
+	url = https://github.com/lucashgrifoni/OWASP-WrongSecrets
+[submodule "labs/language/goof-snyk-s-vulnerable-demo-application"]
+	path = labs/language/goof-snyk-s-vulnerable-demo-application
+	url = https://github.com/lucashgrifoni/Goof-Snyk-s-Vulnerable-Demo-Application
+[submodule "labs/misc/damn-vulnerable-bank"]
+	path = labs/misc/damn-vulnerable-bank
+	url = https://github.com/lucashgrifoni/Damn-Vulnerable-Bank
+[submodule "labs/misc/application-broken-crystals"]
+	path = labs/misc/application-broken-crystals
+	url = https://github.com/lucashgrifoni/Application-Broken-Crystals
+[submodule "labs/cloud/awsgoat-a-damn-vulnerable-aws-infrastructure"]
+	path = labs/cloud/awsgoat-a-damn-vulnerable-aws-infrastructure
+	url = https://github.com/lucashgrifoni/AWSGoat-A-Damn-Vulnerable-AWS-Infrastructure
+[submodule "labs/cloud/application-vulnerable-kubernetes-goat"]
+	path = labs/cloud/application-vulnerable-kubernetes-goat
+	url = https://github.com/lucashgrifoni/Application-Vulnerable-Kubernetes-Goat
+[submodule "labs/misc/andro-vuln-test"]
+	path = labs/misc/andro-vuln-test
+	url = https://github.com/lucashgrifoni/andro-vuln-test
