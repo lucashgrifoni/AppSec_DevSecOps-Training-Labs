@@ -13,8 +13,8 @@ This repository serves as a centralized index to help security professionals, de
 ## 📑 Table of Contents
 
 - [How to Use This Catalog](#-how-to-use-this-catalog)
-- [Training Focus Legend](#-training-focus-legend)
-- [Labs by Category](#-labs-by-category)
+- [Training Focus Legend](#training-focus-legend)
+- [Labs by Category](#labs-by-category)
   - [🌐 Web Applications](#-web-applications) `14 labs`
   - [🔌 APIs](#-apis) `5 labs`
   - [📱 Mobile](#-mobile) `5 labs`
