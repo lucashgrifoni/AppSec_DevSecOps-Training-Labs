@@ -9,14 +9,14 @@ A professional catalog of deliberately vulnerable applications and environments 
 - [How to Use This Catalog](#how-to-use-this-catalog)
 - [Training Focus Legend](#training-focus-legend)
 - [Labs by Category](#labs-by-category)
-  - [Web Applications](#web-applications) (18)
-  - [APIs](#apis) (9)
-  - [Mobile](#mobile) (8)
-  - [Cloud Infrastructure](#cloud-infrastructure) (9)
+  - [Web Applications](#web-applications) (15)
+  - [APIs](#apis) (5)
+  - [Mobile](#mobile) (5)
+  - [Cloud Infrastructure](#cloud-infrastructure) (6)
   - [CI/CD & Supply Chain](#cicd--supply-chain) (7)
-  - [Kubernetes](#kubernetes) (3)
-  - [Language-Specific & Code Review](#language-specific--code-review) (9)
-  - [Collections & Directories](#collections--directories) (24)
+  - [Kubernetes](#kubernetes) (2)
+  - [Language-Specific & Code Review](#language-specific--code-review) (8)
+  - [Collections & Directories](#collections--directories) (20)
 - [Training Paths](#training-paths)
 - [Credits](#credits)
 
@@ -51,22 +51,22 @@ A professional catalog of deliberately vulnerable applications and environments 
 
 ## Labs by Category
 
-### Web Applications (18)
+### Web Applications (15)
 
 #### OWASP Juice Shop
 - **Description**: Modern web application with OWASP Top 10 vulnerabilities and beyond. Comprehensive training platform for web application security.
 - **Training focus**: DAST, Pentest, Injection, Auth, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Juice-Shop)
+- **Upstream installation and usage**: [GitHub](https://github.com/juice-shop/juice-shop)
 
 #### OWASP WebGoat
 - **Description**: Deliberately insecure web application maintained by OWASP for security training.
 - **Training focus**: DAST, Pentest, Injection, Auth, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/OWASP-WebGoat.NET-Docker-Container)
+- **Upstream installation and usage**: [GitHub](https://github.com/madhuakula/WebGoat.NET)
 
 #### OWASP Security Shepherd
 - **Description**: Web and mobile application security training platform with various vulnerability scenarios.
 - **Training focus**: DAST, Pentest, Secure Code Review, Mobile Security
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/OWASP-Security-Shepherd)
+- **Upstream installation and usage**: [GitHub](https://github.com/markdenihan/www-project-security-shepherd)
 
 #### Damn Vulnerable Web Application (DVWA)
 - **Description**: PHP/MySQL web application containing common web vulnerabilities for security training.
@@ -76,7 +76,7 @@ A professional catalog of deliberately vulnerable applications and environments 
 #### Damn Vulnerable NodeJS Application (DVNA)
 - **Description**: Vulnerable Node.js/Express application demonstrating common security issues in Node.js applications.
 - **Training focus**: SAST, DAST, Pentest, Secure Code Review, API Security
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Damn-Vulnerable-NodeJS-Application-DVNA)
+- **Upstream installation and usage**: [GitHub](https://github.com/appsecco/dvna)
 
 #### Damn Vulnerable WordPress Site (DVWPS)
 - **Description**: WordPress installation with intentionally vulnerable plugins and themes.
@@ -98,57 +98,45 @@ A professional catalog of deliberately vulnerable applications and environments 
 - **Training focus**: SAST, DAST, Pentest, Secure Code Review, Python
 - **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-Flask-App)
 
-#### Application React Vulnerable
-- **Description**: React-based web application demonstrating client-side security issues.
-- **Training focus**: SAST, Secure Code Review, Client-Side Security, JavaScript
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-React-Vulnerable)
 
-#### Application Vulnerable Node Express
-- **Description**: Node.js/Express application with security vulnerabilities for training.
-- **Training focus**: SAST, DAST, Pentest, Secure Code Review, Node.js
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Vulnerable-Node-Express)
 
 #### Application Vulnerable Log4Shell
 - **Description**: Application demonstrating the Log4Shell (CVE-2021-44228) vulnerability.
 - **Training focus**: SAST, SCA, Pentest, Supply Chain, Java
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Vulnerable-Log4Shell)
+- **Upstream installation and usage**: [GitHub](https://github.com/christophetd/log4shell-vulnerable-app)
 
 #### Application Vulnerable OTP
 - **Description**: Application with vulnerable One-Time Password (OTP) implementation.
 - **Training focus**: Auth, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Vulnerable-OTP)
+- **Upstream installation and usage**: [GitHub](https://github.com/mddanish/Vulnerable-OTP-Application)
 
-#### Application Vulnerable XSLT Console
-- **Description**: XSLT-based application with security vulnerabilities.
-- **Training focus**: Pentest, Injection, XML Security
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Vulnerable-Xslt-Console)
 
 #### Vulnerable Web Application
 - **Description**: General-purpose vulnerable web application for security testing.
 - **Training focus**: DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-Web-Application)
+- **Upstream installation and usage**: [GitHub](https://github.com/fatihhcelik/Vulnerable-Web-Application)
 
 #### Web Application Vulnerable ASP.NET Core 2.0
 - **Description**: ASP.NET Core application with security vulnerabilities.
 - **Training focus**: SAST, DAST, Pentest, Secure Code Review, .NET
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Web-Application-Vulnerable-ASP.NET-Core-2.0)
+- **Upstream installation and usage**: [GitHub](https://github.com/kmcquade/dvcsa)
 
 #### VulnLab Web Application Vulnerability Lab Project
 - **Description**: Collection of web application vulnerabilities for training purposes.
 - **Training focus**: DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/VulnLab-Web-Application-Vulnerability-Lab-Project)
+- **Upstream installation and usage**: [GitHub](https://github.com/OWASP/OWASP-VWAD)
 
 #### UnSAFE Bank Application
 - **Description**: Vulnerable banking application for web and mobile security training.
 - **Training focus**: DAST, Pentest, Auth, Mobile Security, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/UnSAFE-Bank-Application-Security-Web-Android-and-iOS)
+- **Upstream installation and usage**: [GitHub](https://github.com/lucideus-repo/UnSAFE_Bank)
 
-### APIs (9)
+### APIs (5)
 
 #### Damn Vulnerable GraphQL Application
 - **Description**: GraphQL API with intentionally introduced security vulnerabilities for training.
 - **Training focus**: API Security, DAST, Pentest, GraphQL
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Damn-Vulnerable-GraphQL-Application)
+- **Upstream installation and usage**: [GitHub](https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application)
 
 #### VAmPI
 - **Description**: Vulnerable REST API designed for learning API security testing techniques.
@@ -158,44 +146,24 @@ A professional catalog of deliberately vulnerable applications and environments 
 #### OpenAPI 3 The Vulnerable API
 - **Description**: API demonstrating OpenAPI security issues and misconfigurations.
 - **Training focus**: API Security, DAST, Pentest, OpenAPI
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/OpenAPI-3-The-Vulnerable-API)
+- **Upstream installation and usage**: [GitHub](https://github.com/mattvaldes/vulnerable-api)
 
-#### Vulnerable API Security Application
-- **Description**: API with various security vulnerabilities for training purposes.
-- **Training focus**: API Security, DAST, Pentest, Auth
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-API-Security-Application)
 
-#### Vulnerable FastAPI
-- **Description**: FastAPI application with security vulnerabilities for API security training.
-- **Training focus**: API Security, SAST, DAST, Pentest, Python
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-FastAPI)
 
-#### Vulnerable SOAP Service
-- **Description**: SOAP web service with security vulnerabilities.
-- **Training focus**: API Security, DAST, Pentest, SOAP, XML Security
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-Soap-Service)
 
-#### Sample Application with REST API Endpoints
-- **Description**: Application with vulnerable REST API endpoints for security testing.
-- **Training focus**: API Security, DAST, Pentest, REST
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Sample-Application-with-REST-API-Endpoints)
 
 #### VyAPI - Vulnerable Hybrid Android App
 - **Description**: Cloud-based vulnerable hybrid Android application with API security issues.
 - **Training focus**: API Security, Mobile Security, DAST, Pentest
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/VyAPI-The-Modern-Cloud-Based-Vulnerable-Hybrid-Android-App)
+- **Upstream installation and usage**: [GitHub](https://github.com/appsecco/VyAPI)
 
 #### Damn Vulnerable C# API
 - **Description**: C# API with security vulnerabilities for training.
 - **Training focus**: API Security, SAST, DAST, Pentest, .NET, Secure Code Review
 - **Upstream installation and usage**: [GitHub](https://github.com/appsecco/dvcsharp-api)
 
-### Mobile (8)
+### Mobile (5)
 
-#### Damn Vulnerable Hybrid Mobile App (DVHMA)
-- **Description**: Hybrid mobile application with security vulnerabilities for Android and iOS training.
-- **Training focus**: Mobile Security, SAST, DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/logicalhacking/DVHMA)
 
 #### Damn Vulnerable iOS App (DVIA)
 - **Description**: iOS application with security vulnerabilities for mobile security training.
@@ -210,44 +178,35 @@ A professional catalog of deliberately vulnerable applications and environments 
 #### Oversecured Vulnerable Android App
 - **Description**: Android application with security vulnerabilities for mobile security testing.
 - **Training focus**: Mobile Security, SAST, Pentest, Android, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Oversecured-Vulnerable-Android-App)
+- **Upstream installation and usage**: [GitHub](https://github.com/oversecured/oversecured-android-gradle)
 
 #### Oversecured Vulnerable iOS App
 - **Description**: iOS application with security vulnerabilities for mobile security testing.
 - **Training focus**: Mobile Security, SAST, Pentest, iOS, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Oversecured-Vulnerable-IOS-App)
+- **Upstream installation and usage**: [GitHub](https://github.com/oversecured/OversecuredVulnerableiOSApp)
 
-#### Insecure and Vulnerable Android Application
-- **Description**: Android application demonstrating common security issues.
-- **Training focus**: Mobile Security, SAST, Pentest, Android, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Insecure-and-Vulnerable-Android-Application)
 
 #### Vulnerable Android Application
 - **Description**: Android application with security vulnerabilities for training.
 - **Training focus**: Mobile Security, SAST, Pentest, Android, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-Android-Application)
+- **Upstream installation and usage**: [GitHub](https://github.com/ashishb/android-security-awesome)
 
-#### Damn Vulnerable Hybrid Mobile App
-- **Description**: Hybrid mobile application with security vulnerabilities.
-- **Training focus**: Mobile Security, SAST, DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Damn-Vulnerable-Hybrid-Mobile-App)
-
-### Cloud Infrastructure (9)
+### Cloud Infrastructure (6)
 
 #### AWSGoat
 - **Description**: Deliberately vulnerable AWS infrastructure for cloud security training and attack simulation.
 - **Training focus**: Cloud Security, IaC, Pentest, AWS
-- **Upstream installation and usage**: [GitHub](https://github.com/ine-labs/AWSGoat)
+- **Upstream installation and usage**: [GitHub](https://github.com/jeswinMathai/AWSGoat)
 
 #### AWSGoat - A Damn Vulnerable AWS Infrastructure
 - **Description**: Alternative AWSGoat implementation with vulnerable AWS infrastructure scenarios.
 - **Training focus**: Cloud Security, IaC, Pentest, AWS
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/AWSGoat-A-Damn-Vulnerable-AWS-Infrastructure)
+- **Upstream installation and usage**: [GitHub](https://github.com/SSKale1/AWSGoat)
 
 #### AzureGoat
 - **Description**: Deliberately vulnerable Azure infrastructure for cloud security training.
 - **Training focus**: Cloud Security, IaC, Pentest, Azure
-- **Upstream installation and usage**: [GitHub](https://github.com/ine-labs/AzureGoat)
+- **Upstream installation and usage**: [GitHub](https://github.com/jeswinMathai/AzureGoat)
 
 #### GCP Goat
 - **Description**: Deliberately vulnerable GCP infrastructure for cloud security training.
@@ -263,11 +222,6 @@ A professional catalog of deliberately vulnerable applications and environments 
 - **Description**: GCP-based vulnerable application for cloud security training.
 - **Training focus**: Cloud Security, IaC, Pentest, GCP
 - **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-Google-Cloud-Platform)
-
-#### Application Vulnerable Kubernetes Goat
-- **Description**: Kubernetes environment with security vulnerabilities for container orchestration training.
-- **Training focus**: Kubernetes, Container, Cloud Security, Pentest
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Vulnerable-Kubernetes-Goat)
 
 ### CI/CD & Supply Chain (7)
 
@@ -306,7 +260,7 @@ A professional catalog of deliberately vulnerable applications and environments 
 - **Training focus**: CI/CD, DevSecOps, Supply Chain, DAST
 - **Upstream installation and usage**: [GitLab](https://gitlab.com/devsecops8471116/applying-dev-sec-ops-to-juice-shop)
 
-### Kubernetes (3)
+### Kubernetes (2)
 
 #### Kubernetes Goat
 - **Description**: Vulnerable Kubernetes cluster designed for learning Kubernetes security.
@@ -318,12 +272,7 @@ A professional catalog of deliberately vulnerable applications and environments 
 - **Training focus**: Kubernetes, Cloud Security, AWS, Container, Pentest
 - **Upstream installation and usage**: [GitHub](https://github.com/OWASP/www-project-eks-goat)
 
-#### Application Vulnerable Kubernetes Goat
-- **Description**: Kubernetes environment with security vulnerabilities for container orchestration training.
-- **Training focus**: Kubernetes, Container, Cloud Security, Pentest
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Vulnerable-Kubernetes-Goat)
-
-### Language-Specific & Code Review (9)
+### Language-Specific & Code Review (8)
 
 #### Damn Vulnerable Java Application (DVJA)
 - **Description**: Java web application with security vulnerabilities for code review and SAST training.
@@ -348,29 +297,25 @@ A professional catalog of deliberately vulnerable applications and environments 
 #### Java Application Vulnerable Lab
 - **Description**: Java application with security vulnerabilities for training.
 - **Training focus**: SAST, Secure Code Review, Java, Injection
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Java-Application-Vulnerable-Lab)
+- **Upstream installation and usage**: [GitHub](https://github.com/CSPF-Founder/JavaVulnerableLab)
 
-#### Python Source Code Analysis
-- **Description**: Python application designed for source code analysis and SAST tool validation.
-- **Training focus**: SAST, Secure Code Review, Python
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Python-Source-Code-Analysis)
 
 #### Goof - Snyk's Vulnerable Demo Application
 - **Description**: Vulnerable application for demonstrating SCA and dependency scanning tools.
 - **Training focus**: SCA, SAST, Secure Code Review, Supply Chain
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Goof-Snyk-s-Vulnerable-Demo-Application)
+- **Upstream installation and usage**: [GitHub](https://github.com/snyk-labs/nodejs-goof)
 
 #### Vulnerable Languages
 - **Description**: Collection of vulnerable code examples across multiple programming languages.
 - **Training focus**: SAST, Secure Code Review, Multi-language
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-Languages)
+- **Upstream installation and usage**: [GitHub](https://github.com/arall/vulnerabilities)
 
 #### Certified Red Team Python Analyst (CRPYA)
 - **Description**: Python-based vulnerable application for red team training and code review.
 - **Training focus**: SAST, Secure Code Review, Python, Pentest
 - **Upstream installation and usage**: [GitHub](https://github.com/CyberSecurityUP/CRPYA)
 
-### Collections & Directories (24)
+### Collections & Directories (20)
 
 #### Vulhub
 - **Description**: Collection of pre-built vulnerable Docker environments for various CVEs and security issues.
@@ -382,15 +327,11 @@ A professional catalog of deliberately vulnerable applications and environments 
 - **Training focus**: API Security, DAST, Pentest, WebSockets
 - **Upstream installation and usage**: [GitHub](https://github.com/snoopysecurity/dvws)
 
-#### OWASP WrongSecrets
-- **Description**: Application with secrets management vulnerabilities for training.
-- **Training focus**: Secrets, SAST, DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/OWASP-WrongSecrets)
 
 #### Damn Vulnerable Bank
 - **Description**: Banking application with security vulnerabilities for financial application security training.
 - **Training focus**: DAST, Pentest, Auth, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Damn-Vulnerable-Bank)
+- **Upstream installation and usage**: [GitHub](https://github.com/rewanthtammana/Damn-Vulnerable-Bank)
 
 #### Damn Vulnerable Serverless Application (DVSA)
 - **Description**: Serverless application with security vulnerabilities for cloud and serverless security training.
@@ -412,15 +353,11 @@ A professional catalog of deliberately vulnerable applications and environments 
 - **Training focus**: SAST, Pentest, Firmware Security, Embedded Systems
 - **Upstream installation and usage**: [GitHub](https://github.com/praetorian-inc/DVRF)
 
-#### Damn Vulnerable Functions as a Service (DVFaaS)
-- **Description**: Serverless functions with security vulnerabilities for FaaS security training.
-- **Training focus**: Cloud Security, Serverless, SAST, DAST, Pentest
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/DVFaaS-Damn-Vulnerable-Functions-as-a-Service)
 
 #### Damn Vulnerable Micro Services (DVMS)
 - **Description**: Microservices architecture with security vulnerabilities for distributed systems security training.
 - **Training focus**: API Security, Microservices, DAST, Pentest, Container
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/DVMS-Damn-Vulnerable-Micro-Services)
+- **Upstream installation and usage**: [GitHub](https://github.com/ne0z/DamnVulnerableMicroServices)
 
 #### Damn Vulnerable Grade Management (DVGM)
 - **Description**: Grade management system with security vulnerabilities.
@@ -430,97 +367,65 @@ A professional catalog of deliberately vulnerable applications and environments 
 #### Application Vulnerable Lab SSRF
 - **Description**: Application specifically designed to demonstrate SSRF vulnerabilities.
 - **Training focus**: SSRF, DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Vulnerable-Lab-SSRF)
+- **Upstream installation and usage**: [GitHub](https://github.com/incredibleindishell/SSRF_Vulnerable_Lab)
 
 #### CORS Misconfiguration Vulnerable Lab
 - **Description**: Application demonstrating CORS misconfiguration vulnerabilities.
 - **Training focus**: DAST, Pentest, Auth, CORS
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/CORS-misconfiguration-vulnerable-Lab)
+- **Upstream installation and usage**: [GitHub](https://github.com/incredibleindishell/CORS-vulnerable-Lab)
 
 #### Application Authentication Vulnerable Lab
 - **Description**: Application with authentication and authorization vulnerabilities.
 - **Training focus**: Auth, DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Authentication-Vulnerable-Lab)
+- **Upstream installation and usage**: [GitHub](https://github.com/digininja/authlab)
 
 #### Application Docker Vulnerable
 - **Description**: Docker containerized application with security vulnerabilities.
 - **Training focus**: Container, DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Docker-Vulnerable)
+- **Upstream installation and usage**: [GitHub](https://github.com/OWASP/vulnerable-container-hub)
 
 #### Template Injection Workshop
 - **Description**: Application demonstrating template injection vulnerabilities (SSTI).
 - **Training focus**: Injection, DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Template-Injection-Workshop)
+- **Upstream installation and usage**: [GitHub](https://github.com/GoSecure/template-injection-workshop)
 
-#### Spring4Shell PoC Application
-- **Description**: Application demonstrating the Spring4Shell (CVE-2022-22965) vulnerability.
-- **Training focus**: SAST, SCA, Pentest, Supply Chain, Java, Spring
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Spring4Shell-PoC-Application)
 
 #### Application Broken Crystals
 - **Description**: Application with various security vulnerabilities for training.
 - **Training focus**: DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Broken-Crystals)
+- **Upstream installation and usage**: [GitHub](https://github.com/derevnjuk/sectester-js-demo-broken-crystals)
 
-#### Application Security
-- **Description**: General-purpose application with security vulnerabilities.
-- **Training focus**: DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Security)
 
-#### Application Security Dev Labs
-- **Description**: Collection of security development labs and vulnerable applications.
-- **Training focus**: DAST, Pentest, Secure Code Review, Multi-vulnerability
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Application-Security-Dev-Labs)
 
 #### OWASP Vulnerable App
 - **Description**: OWASP-maintained vulnerable application for security training.
 - **Training focus**: DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/OWASP-Vulnerable-App)
+- **Upstream installation and usage**: [GitHub](https://github.com/SasanLabs/VulnerableApp)
 
-#### OWASP Complete Vulnerable Labs Application Security
-- **Description**: Collection of OWASP vulnerable labs for comprehensive security training.
-- **Training focus**: DAST, Pentest, Secure Code Review, Multi-vulnerability
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/OWASP-Complete-Vulnerable-Labs-Application-Security)
 
-#### Examples of Different Vulnerabilities for Testing DAST and SAST Tools
-- **Description**: Collection of vulnerable code examples for validating DAST and SAST security tools.
-- **Training focus**: SAST, DAST, Tool Validation, Multi-vulnerability
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Examples-of-different-vulnerabilities-Useful-for-testing-DAST-and-SAST-tools)
 
 #### Public Pentesting Reports
 - **Description**: Collection of public penetration testing reports for learning and reference.
 - **Training focus**: Pentest, Threat Modeling, Security Assessment
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Public-Pentesting-Reports)
+- **Upstream installation and usage**: [GitHub](https://github.com/juliocesarfort/public-pentesting-reports)
 
 #### OWASP Vulnerable Web Applications Directory Project
 - **Description**: Directory and index of vulnerable web applications for security training.
 - **Training focus**: Reference, Directory, Multi-vulnerability
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/OWASP-Vulnerable-Web-Applications-Directory-Project)
+- **Upstream installation and usage**: [GitHub](https://github.com/OWASP/www-project-vulnerable-web-applications-directory)
 
-#### Vulnerable Adversely Programmed Interface
-- **Description**: Application with intentionally poor security practices for training.
-- **Training focus**: DAST, Pentest, Secure Code Review
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-Adversely-Programmed-Interface)
 
 #### Vulnerable Client Server Application (VuCSA)
 - **Description**: Client-server application with security vulnerabilities.
 - **Training focus**: SAST, DAST, Pentest, Secure Code Review, Network Security
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Vulnerable-Client-Server-Application-VuCSA)
+- **Upstream installation and usage**: [GitHub](https://github.com/Warxim/vucsa)
 
-#### Vulhub Vulnerable Docker Application
-- **Description**: Docker-based vulnerable application collection.
-- **Training focus**: Container, DAST, Pentest, Multi-vulnerability
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/Vulhub-Vulnerable-Docker-Application)
 
 #### SQLite Lab
 - **Description**: Application demonstrating SQLite database security issues.
 - **Training focus**: Injection, DAST, Pentest, Database Security
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/sqlite-lab)
+- **Upstream installation and usage**: [GitHub](https://github.com/incredibleindishell/sqlite-lab)
 
-#### Andro Vuln Test
-- **Description**: Android vulnerability testing application.
-- **Training focus**: Mobile Security, SAST, Pentest, Android
-- **Upstream installation and usage**: [GitHub](https://github.com/lucashgrifoni/andro-vuln-test)
 
 ## Training Paths
 
