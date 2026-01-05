@@ -1,0 +1,33 @@
+# Editor configurations
+.cursor/
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-specific temporary files
+new_projects.json
+new_projects_data.json
+*.bak
+
+# Test files (if any)
+test_*.py
+*_test.py
+
