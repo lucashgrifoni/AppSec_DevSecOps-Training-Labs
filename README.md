@@ -18,7 +18,7 @@ This repository serves as a centralized index to help security professionals, de
   - [🌐 Web Applications](#-web-applications) `14 labs`
   - [🔌 APIs](#-apis) `5 labs`
   - [📱 Mobile](#-mobile) `5 labs`
-  - [☁️ Cloud Infrastructure](#️-cloud-infrastructure) `6 labs`
+  - [☁️ Cloud Infrastructure](#️-cloud-infrastructure) `5 labs`
   - [🔄 CI/CD & Supply Chain](#-cicd--supply-chain) `7 labs`
   - [☸️ Kubernetes](#️-kubernetes) `2 labs`
   - [💻 Language-Specific & Code Review](#-language-specific--code-review) `8 labs`
@@ -252,7 +252,7 @@ This repository serves as a centralized index to help security professionals, de
 
 ### ☁️ Cloud Infrastructure
 
-![Cloud](https://img.shields.io/badge/Labs-6-blue.svg)
+![Cloud](https://img.shields.io/badge/Labs-5-blue.svg)
 
 ---
 
