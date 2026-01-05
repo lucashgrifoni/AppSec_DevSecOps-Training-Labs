@@ -17,6 +17,7 @@ A professional catalog of deliberately vulnerable applications and environments 
   - [Kubernetes](#kubernetes) (2)
   - [Language-Specific & Code Review](#language-specific--code-review) (8)
   - [Collections & Directories](#collections--directories) (20)
+- [Open Source Security Tools](#open-source-security-tools)
 - [Training Paths](#training-paths)
 - [Credits](#credits)
 
@@ -426,6 +427,269 @@ A professional catalog of deliberately vulnerable applications and environments 
 - **Training focus**: Injection, DAST, Pentest, Database Security
 - **Upstream installation and usage**: [GitHub](https://github.com/incredibleindishell/sqlite-lab)
 
+## Open Source Security Tools
+
+This section lists recommended open source security tools for testing and analyzing the vulnerable labs in this catalog. All tools listed are open source and freely available.
+
+### Static Application Security Testing (SAST)
+
+#### SonarQube
+- **Description**: Continuous inspection of code quality and security vulnerabilities across multiple programming languages.
+- **Use cases**: Code review, vulnerability detection, code quality analysis
+- **Repository**: [GitHub](https://github.com/SonarSource/sonarqube)
+- **Website**: [sonarqube.org](https://www.sonarqube.org/)
+
+#### Semgrep
+- **Description**: Fast, open source static analysis tool for finding bugs and enforcing code standards.
+- **Use cases**: SAST, security rule enforcement, CI/CD integration
+- **Repository**: [GitHub](https://github.com/semgrep/semgrep)
+- **Website**: [semgrep.dev](https://semgrep.dev/)
+
+#### Bandit
+- **Description**: Security linter for Python code, designed to find common security issues.
+- **Use cases**: Python SAST, security code review
+- **Repository**: [GitHub](https://github.com/PyCQA/bandit)
+- **Documentation**: [bandit.readthedocs.io](https://bandit.readthedocs.io/)
+
+#### Brakeman
+- **Description**: Static analysis security scanner for Ruby on Rails applications.
+- **Use cases**: Ruby/Rails SAST, vulnerability detection
+- **Repository**: [GitHub](https://github.com/presidentbeef/brakeman)
+- **Website**: [brakemanscanner.org](https://brakemanscanner.org/)
+
+#### ESLint Security Plugin
+- **Description**: ESLint plugin for identifying security vulnerabilities in JavaScript/TypeScript code.
+- **Use cases**: JavaScript/TypeScript SAST, Node.js security
+- **Repository**: [GitHub](https://github.com/nodesecurity/eslint-plugin-security)
+
+### Dynamic Application Security Testing (DAST)
+
+#### OWASP ZAP
+- **Description**: Open source web application security scanner for finding vulnerabilities in web applications.
+- **Use cases**: DAST, automated security testing, API security testing
+- **Repository**: [GitHub](https://github.com/zaproxy/zaproxy)
+- **Website**: [owasp.org/www-project-zap](https://owasp.org/www-project-zap/)
+
+#### Burp Suite Community Edition
+- **Description**: Free edition of Burp Suite for web application security testing and manual penetration testing.
+- **Use cases**: Manual pentesting, web application security, API testing
+- **Website**: [portswigger.net/burp/communitydownload](https://portswigger.net/burp/communitydownload)
+
+#### Nikto
+- **Description**: Web server scanner that performs comprehensive tests against web servers for multiple items.
+- **Use cases**: Web server scanning, vulnerability detection
+- **Repository**: [GitHub](https://github.com/sullo/nikto)
+- **Website**: [cirt.net/Nikto2](https://cirt.net/Nikto2)
+
+#### Wfuzz
+- **Description**: Web application fuzzer for discovering vulnerabilities in web applications.
+- **Use cases**: Web fuzzing, parameter discovery, brute forcing
+- **Repository**: [GitHub](https://github.com/xmendez/wfuzz)
+- **Documentation**: [wfuzz.readthedocs.io](https://wfuzz.readthedocs.io/)
+
+### Software Composition Analysis (SCA)
+
+#### OWASP Dependency-Check
+- **Description**: Detects publicly disclosed vulnerabilities in application dependencies.
+- **Use cases**: Dependency scanning, CVE detection, supply chain security
+- **Repository**: [GitHub](https://github.com/jeremylong/DependencyCheck)
+- **Website**: [owasp.org/www-project-dependency-check](https://owasp.org/www-project-dependency-check/)
+
+#### Snyk Open Source
+- **Description**: Open source security scanner for finding and fixing vulnerabilities in dependencies.
+- **Use cases**: SCA, dependency vulnerability scanning, license compliance
+- **Repository**: [GitHub](https://github.com/snyk/snyk)
+- **Website**: [snyk.io](https://snyk.io/)
+
+#### Dependabot
+- **Description**: Automated dependency update tool that creates pull requests to keep dependencies secure and up-to-date.
+- **Use cases**: Automated dependency updates, security alerts
+- **Repository**: [GitHub](https://github.com/dependabot/dependabot-core)
+- **Documentation**: [docs.github.com/dependabot](https://docs.github.com/dependabot)
+
+### Container Security
+
+#### Trivy
+- **Description**: Comprehensive security scanner for containers, file systems, and Git repositories.
+- **Use cases**: Container scanning, vulnerability detection, IaC scanning
+- **Repository**: [GitHub](https://github.com/aquasecurity/trivy)
+- **Website**: [aquasecurity.github.io/trivy](https://aquasecurity.github.io/trivy/)
+
+#### Clair
+- **Description**: Vulnerability static analysis for containers and application container images.
+- **Use cases**: Container image scanning, CVE detection
+- **Repository**: [GitHub](https://github.com/quay/clair)
+- **Documentation**: [quay.github.io/clair](https://quay.github.io/clair/)
+
+#### Docker Bench Security
+- **Description**: Script that checks for common best practices around deploying Docker containers in production.
+- **Use cases**: Docker security auditing, container hardening
+- **Repository**: [GitHub](https://github.com/docker/docker-bench-security)
+
+### Kubernetes Security
+
+#### kube-bench
+- **Description**: Checks whether Kubernetes is deployed securely by running checks documented in the CIS Kubernetes Benchmark.
+- **Use cases**: Kubernetes security auditing, compliance checking
+- **Repository**: [GitHub](https://github.com/aquasecurity/kube-bench)
+- **Website**: [aquasecurity.github.io/kube-bench](https://aquasecurity.github.io/kube-bench/)
+
+#### kube-hunter
+- **Description**: Penetration testing tool for Kubernetes clusters that discovers security weaknesses.
+- **Use cases**: Kubernetes pentesting, security assessment
+- **Repository**: [GitHub](https://github.com/aquasecurity/kube-hunter)
+- **Website**: [aquasecurity.github.io/kube-hunter](https://aquasecurity.github.io/kube-hunter/)
+
+#### Polaris
+- **Description**: Kubernetes configuration validation and best practices checking.
+- **Use cases**: Kubernetes configuration security, best practices enforcement
+- **Repository**: [GitHub](https://github.com/FairwindsOps/polaris)
+- **Website**: [polaris.docs.fairwinds.com](https://polaris.docs.fairwinds.com/)
+
+#### Falco
+- **Description**: Cloud-native runtime security project that detects anomalous activity and threats.
+- **Use cases**: Runtime security, threat detection, Kubernetes security monitoring
+- **Repository**: [GitHub](https://github.com/falcosecurity/falco)
+- **Website**: [falco.org](https://falco.org/)
+
+### Infrastructure as Code (IaC) Security
+
+#### Checkov
+- **Description**: Static code analysis tool for infrastructure as code (Terraform, CloudFormation, Kubernetes, etc.).
+- **Use cases**: IaC security scanning, misconfiguration detection
+- **Repository**: [GitHub](https://github.com/bridgecrewio/checkov)
+- **Website**: [checkov.io](https://www.checkov.io/)
+
+#### Terrascan
+- **Description**: Static code analyzer for Infrastructure as Code to detect security and compliance violations.
+- **Use cases**: Terraform security, IaC compliance, cloud security
+- **Repository**: [GitHub](https://github.com/tenable/terrascan)
+- **Website**: [runterrascan.io](https://runterrascan.io/)
+
+#### TFLint
+- **Description**: Terraform linter that finds errors and best practices issues in Terraform code.
+- **Use cases**: Terraform linting, best practices enforcement
+- **Repository**: [GitHub](https://github.com/terraform-linters/tflint)
+- **Documentation**: [github.com/terraform-linters/tflint](https://github.com/terraform-linters/tflint)
+
+### Secrets Detection
+
+#### TruffleHog
+- **Description**: Detects secrets, credentials, and other sensitive data in code repositories.
+- **Use cases**: Secret scanning, credential detection, Git history scanning
+- **Repository**: [GitHub](https://github.com/trufflesecurity/trufflehog)
+- **Website**: [trufflesecurity.com](https://trufflesecurity.com/)
+
+#### GitLeaks
+- **Description**: Fast and easy-to-use tool for detecting hardcoded secrets in Git repositories.
+- **Use cases**: Secret detection, credential scanning, Git security
+- **Repository**: [GitHub](https://github.com/gitleaks/gitleaks)
+- **Website**: [gitleaks.io](https://gitleaks.io/)
+
+#### detect-secrets
+- **Description**: Tool for detecting secrets in codebases and preventing them from being committed.
+- **Use cases**: Pre-commit hooks, secret prevention, credential detection
+- **Repository**: [GitHub](https://github.com/Yelp/detect-secrets)
+- **Documentation**: [github.com/Yelp/detect-secrets](https://github.com/Yelp/detect-secrets)
+
+### API Security Testing
+
+#### Postman
+- **Description**: API platform for building and testing APIs (free tier available).
+- **Use cases**: API testing, API security testing, API documentation
+- **Repository**: [GitHub](https://github.com/postmanlabs/postman-app-support)
+- **Website**: [postman.com](https://www.postman.com/)
+
+#### Insomnia
+- **Description**: Open source API client for GraphQL, REST, and gRPC.
+- **Use cases**: API testing, API debugging, API security testing
+- **Repository**: [GitHub](https://github.com/Kong/insomnia)
+- **Website**: [insomnia.rest](https://insomnia.rest/)
+
+#### REST Assured
+- **Description**: Java DSL for easy testing of REST services.
+- **Use cases**: API testing, REST API automation, Java API testing
+- **Repository**: [GitHub](https://github.com/rest-assured/rest-assured)
+- **Website**: [rest-assured.io](https://rest-assured.io/)
+
+### Mobile Security
+
+#### Mobile Security Framework (MobSF)
+- **Description**: Automated mobile application security testing framework for Android and iOS.
+- **Use cases**: Mobile app security testing, static and dynamic analysis
+- **Repository**: [GitHub](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
+- **Website**: [mobsf.github.io](https://mobsf.github.io/)
+
+#### QARK
+- **Description**: Tool designed to look for security issues in Android applications.
+- **Use cases**: Android security analysis, vulnerability detection
+- **Repository**: [GitHub](https://github.com/linkedin/qark)
+- **Documentation**: [github.com/linkedin/qark](https://github.com/linkedin/qark)
+
+#### Frida
+- **Description**: Dynamic instrumentation toolkit for reverse engineering and security research.
+- **Use cases**: Mobile app reverse engineering, dynamic analysis, runtime manipulation
+- **Repository**: [GitHub](https://github.com/frida/frida)
+- **Website**: [frida.re](https://frida.re/)
+
+### Cloud Security
+
+#### Scout Suite
+- **Description**: Multi-cloud security auditing tool for security posture assessment.
+- **Use cases**: Cloud security auditing, AWS/Azure/GCP security assessment
+- **Repository**: [GitHub](https://github.com/nccgroup/ScoutSuite)
+- **Website**: [github.com/nccgroup/ScoutSuite](https://github.com/nccgroup/ScoutSuite)
+
+#### Prowler
+- **Description**: AWS security assessment tool based on AWS security best practices.
+- **Use cases**: AWS security auditing, compliance checking, security assessment
+- **Repository**: [GitHub](https://github.com/prowler-cloud/prowler)
+- **Website**: [prowler.pro](https://prowler.pro/)
+
+#### CloudSploit
+- **Description**: Open source security scanning tool for cloud infrastructure (AWS, Azure, GCP).
+- **Use cases**: Cloud security scanning, misconfiguration detection
+- **Repository**: [GitHub](https://github.com/aquasecurity/cloudsploit)
+- **Website**: [cloudsploit.com](https://cloudsploit.com/)
+
+### CI/CD Security
+
+#### GitLab CI/CD
+- **Description**: Built-in CI/CD platform with security scanning capabilities (open source edition available).
+- **Use cases**: CI/CD pipelines, automated security scanning, DevSecOps
+- **Repository**: [GitHub](https://github.com/gitlabhq/gitlabhq)
+- **Website**: [gitlab.com](https://gitlab.com/)
+
+#### GitHub Actions
+- **Description**: CI/CD platform with security workflows and scanning capabilities (free for public repos).
+- **Use cases**: CI/CD automation, security scanning, workflow automation
+- **Documentation**: [docs.github.com/actions](https://docs.github.com/actions)
+
+#### Jenkins
+- **Description**: Open source automation server with extensive plugin ecosystem for security scanning.
+- **Use cases**: CI/CD pipelines, security integration, automation
+- **Repository**: [GitHub](https://github.com/jenkinsci/jenkins)
+- **Website**: [jenkins.io](https://www.jenkins.io/)
+
+### General Security Testing
+
+#### Metasploit Framework
+- **Description**: Penetration testing framework for developing and executing exploit code.
+- **Use cases**: Penetration testing, exploit development, security research
+- **Repository**: [GitHub](https://github.com/rapid7/metasploit-framework)
+- **Website**: [metasploit.com](https://www.metasploit.com/)
+
+#### Nmap
+- **Description**: Network discovery and security auditing tool.
+- **Use cases**: Network scanning, port scanning, service detection
+- **Repository**: [GitHub](https://github.com/nmap/nmap)
+- **Website**: [nmap.org](https://nmap.org/)
+
+#### SQLMap
+- **Description**: Automated SQL injection and database takeover tool.
+- **Use cases**: SQL injection testing, database security assessment
+- **Repository**: [GitHub](https://github.com/sqlmapproject/sqlmap)
+- **Website**: [sqlmap.org](https://sqlmap.org/)
 
 ## Training Paths
 
