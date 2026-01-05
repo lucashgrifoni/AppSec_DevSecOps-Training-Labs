@@ -12,37 +12,42 @@ This repository serves as a centralized index to help security professionals, de
 
 ## 📑 Table of Contents
 
-- [How to Use This Catalog](#-how-to-use-this-catalog)
-- [Training Focus Legend](#-training-focus-legend)
-- [Labs by Category](#-labs-by-category)
-  - [🌐 Web Applications](#-web-applications) `14 labs`
-  - [🔌 APIs](#-apis) `5 labs`
-  - [📱 Mobile](#-mobile) `5 labs`
-  - [☁️ Cloud Infrastructure](#️-cloud-infrastructure) `5 labs`
-  - [🔄 CI/CD & Supply Chain](#-cicd--supply-chain) `7 labs`
-  - [☸️ Kubernetes](#️-kubernetes) `2 labs`
-  - [💻 Language-Specific & Code Review](#-language-specific--code-review) `8 labs`
-  - [📚 Collections & Directories](#-collections--directories) `20 labs`
-- [🛠️ Open Source Security Tools](#️-open-source-security-tools)
-- [🎯 Training Paths](#-training-paths)
-- [👥 Credits](#-credits)
+* [📖 How to Use This Catalog](#-how-to-use-this-catalog)
+* [🏷️ Training Focus Legend](#training-focus-legend)
+* [🗂️ Labs by Category](#labs-by-category)
+  * [🌐 Web Applications](#-web-applications) (14 labs)
+  * [🔌 APIs](#-apis) (5 labs)
+  * [📱 Mobile](#-mobile) (5 labs)
+  * [☁️ Cloud Infrastructure](#-cloud-infrastructure) (5 labs)
+  * [🔄 CI/CD & Supply Chain](#-cicd--supply-chain) (7 labs)
+  * [☸️ Kubernetes](#-kubernetes) (2 labs)
+  * [💻 Language-Specific & Code Review](#-language-specific--code-review) (8 labs)
+  * [📚 Collections & Directories](#-collections--directories) (20 labs)
+* [🛠️ Open Source Security Tools](#-open-source-security-tools)
+* [🎯 Training Paths](#-training-paths)
+* [👥 Credits](#-credits)
+
+---
 
 ## 📖 How to Use This Catalog
 
 | Step | Action | Description |
-|------|--------|-------------|
-| 1️⃣ | **Identify your training focus** | Review the [Training Focus Legend](#-training-focus-legend) to understand available training categories |
+| :--- | :--- | :--- |
+| 1️⃣ | **Identify your training focus** | Review the Training Focus Legend to understand available training categories |
 | 2️⃣ | **Browse by category** | Navigate to the relevant section (Web, API, Mobile, Cloud, etc.) to find labs matching your needs |
 | 3️⃣ | **Review training focus tags** | Each lab includes tags indicating what security testing disciplines it supports |
 | 4️⃣ | **Follow upstream documentation** | All installation, setup, and usage instructions are maintained in each project's original repository |
 | 5️⃣ | **Use isolated environments** | Always run these labs in isolated, controlled environments. Never deploy to production |
 
-> 💡 **Tip**: Click on any lab's upstream link to access detailed installation and usage documentation.
+💡 **Tip:** Click on any lab's upstream link to access detailed installation and usage documentation.
 
+---
+
+<a id="training-focus-legend"></a>
 ## 🏷️ Training Focus Legend
 
 | Tag | Full Name | Description |
-|-----|-----------|-------------|
+| :--- | :--- | :--- |
 | **SAST** | Static Application Security Testing | Code analysis without executing the application |
 | **SCA** | Software Composition Analysis | Dependency scanning and vulnerability detection |
 | **DAST** | Dynamic Application Security Testing | Runtime security testing of running applications |
@@ -62,6 +67,9 @@ This repository serves as a centralized index to help security professionals, de
 | **Secure Code Review** | Code Review | Manual code review and static analysis |
 | **Threat Modeling** | Threat Modeling | Threat modeling exercises |
 
+---
+
+<a id="labs-by-category"></a>
 ## 🗂️ Labs by Category
 
 ### 🌐 Web Applications
