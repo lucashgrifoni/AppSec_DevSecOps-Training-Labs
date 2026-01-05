@@ -433,10 +433,10 @@ A professional catalog of deliberately vulnerable applications and environments 
 Recommended labs for static analysis and dependency scanning training:
 1. **Damn Vulnerable Java Application (DVJA)** - Java SAST and code review
 2. **Damn Vulnerable Python Web Application (DVPWA)** - Python SAST and code review
-3. **Python Source Code Analysis** - Python SAST tool validation
-4. **Goof - Snyk's Vulnerable Demo Application** - SCA and dependency scanning
-5. **Vulnerable Languages** - Multi-language SAST training
-6. **Application Vulnerable Log4Shell** - SCA and supply chain security
+3. **Goof - Snyk's Vulnerable Demo Application** - SCA and dependency scanning
+4. **Vulnerable Languages** - Multi-language SAST training
+5. **Application Vulnerable Log4Shell** - SCA and supply chain security
+6. **Application Java Spring Vulny** - Java Spring SAST and code review
 
 ### DAST/Pentest Path
 Recommended labs for dynamic testing and penetration testing:
@@ -453,17 +453,17 @@ Recommended labs for API security testing:
 2. **VAmPI** - REST API security testing
 3. **Tiredful API** - REST API pentesting
 4. **OpenAPI 3 The Vulnerable API** - OpenAPI security issues
-5. **Vulnerable FastAPI** - FastAPI security testing
-6. **Damn Vulnerable Web Services (DVWS)** - Web services security
+5. **Damn Vulnerable Web Services (DVWS)** - Web services security
+6. **Damn Vulnerable C# API** - C# API security testing
 
 ### Mobile Security Path
 Recommended labs for mobile application security:
 1. **Damn Vulnerable iOS App (DVIA)** - iOS security testing
-2. **Oversecured Vulnerable Android App** - Android security testing
-3. **Damn Vulnerable Hybrid Mobile App (DVHMA)** - Hybrid app security
-4. **Insecure and Vulnerable Android Application** - Android pentesting
-5. **Oversecured Vulnerable iOS App** - iOS pentesting
-6. **Vulnerable Android Application** - Android code review
+2. **Damn Vulnerable iOS App v2 (DVIA-v2)** - iOS security testing (updated)
+3. **Oversecured Vulnerable Android App** - Android security testing
+4. **Oversecured Vulnerable iOS App** - iOS pentesting
+5. **Vulnerable Android Application** - Android code review
+6. **Damn Vulnerable Hybrid Mobile App (DVHMA)** - Hybrid app security
 
 ### Cloud/K8s/CI-CD Path
 Recommended labs for cloud, Kubernetes, and CI/CD security:
