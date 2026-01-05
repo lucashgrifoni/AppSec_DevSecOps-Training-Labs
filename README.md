@@ -2,7 +2,7 @@
 
 > A professional catalog of deliberately vulnerable applications and environments for security training, testing, and tool validation.
 
-[![Total Labs](https://img.shields.io/badge/Total%20Labs-67-blue.svg)](https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs)
+[![Total Labs](https://img.shields.io/badge/Total%20Labs-66-blue.svg)](https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green.svg)](LICENSE)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -289,13 +289,6 @@ This repository serves as a centralized index to help security professionals, de
 > Cloud-native application with security vulnerabilities across multiple cloud services.
 
 - **Training focus**: `Cloud Security` `Container` `IaC` `Pentest`
-- **Upstream**: [GitHub](https://github.com/m6a-UdS/dvca)
-
-#### Vulnerable Google Cloud Platform
-
-> GCP-based vulnerable application for cloud security training.
-
-- **Training focus**: `Cloud Security` `IaC` `Pentest` `GCP`
 - **Upstream**: [GitHub](https://github.com/m6a-UdS/dvca)
 
 ### 🔄 CI/CD & Supply Chain
