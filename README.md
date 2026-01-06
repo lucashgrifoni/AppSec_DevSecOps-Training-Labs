@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="assets/AppSec_DevSecOps-Training-Labs-logo.png" alt="AppSec_DevSecOps-Training-Labs Logo" width="180" />
+</p>
+
+<p align="center">
+  <strong style="font-size: 1.6em;">AppSec & DevSecOps - Training Labs</strong>
+</p>
+
 # 🔐 Vulnerable Labs Catalog
 
 > A professional catalog of deliberately vulnerable applications and environments for security training, testing, and tool validation.
