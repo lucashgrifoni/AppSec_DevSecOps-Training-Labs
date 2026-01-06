@@ -3,8 +3,10 @@
 </p>
 
 <p align="center">
-  <strong style="font-size: 1.6em;">AppSec & DevSecOps - Training Labs</strong>
+  <strong style="font-size: 2.1em;">AppSec & DevSecOps - Training Labs</strong>
 </p>
+
+<br />
 
 # 🔐 Vulnerable Labs Catalog
 
