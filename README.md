@@ -12,9 +12,17 @@
 
 > A professional catalog of deliberately vulnerable applications and environments for security training, testing, and tool validation.
 
-[![Total Labs](https://img.shields.io/badge/Total%20Labs-66-blue.svg)](https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green.svg)](LICENSE)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<p align="center">
+  <a href="https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs">
+    <img alt="Total Labs" src="https://img.shields.io/badge/Total%20Labs-66-0ea5e9?style=for-the-badge" />
+  </a>
+  <a href="LICENSE">
+    <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source-Yes-22c55e?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
+  </a>
+  <a href="LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge&logo=spdx&logoColor=white" />
+  </a>
+</p>
 
 This repository serves as a centralized index to help security professionals, developers, and researchers identify appropriate labs based on their training objectives.
 
@@ -84,7 +92,7 @@ This repository serves as a centralized index to help security professionals, de
 
 ### 🌐 Web Applications
 
-![Web Apps](https://img.shields.io/badge/Labs-14-blue.svg)
+![Web Apps](https://img.shields.io/badge/Labs-14-0ea5e9?style=for-the-badge)
 
 ---
 
@@ -188,7 +196,7 @@ This repository serves as a centralized index to help security professionals, de
 
 ### 🔌 APIs
 
-![APIs](https://img.shields.io/badge/Labs-5-blue.svg)
+![APIs](https://img.shields.io/badge/Labs-5-0ea5e9?style=for-the-badge)
 
 ---
 
@@ -229,7 +237,7 @@ This repository serves as a centralized index to help security professionals, de
 
 ### 📱 Mobile
 
-![Mobile](https://img.shields.io/badge/Labs-5-blue.svg)
+![Mobile](https://img.shields.io/badge/Labs-5-0ea5e9?style=for-the-badge)
 
 ---
 
@@ -271,7 +279,7 @@ This repository serves as a centralized index to help security professionals, de
 <a id="cloud-infrastructure"></a>
 ### ☁️ Cloud Infrastructure
 
-![Cloud](https://img.shields.io/badge/Labs-5-blue.svg)
+![Cloud](https://img.shields.io/badge/Labs-5-0ea5e9?style=for-the-badge)
 
 ---
 
@@ -312,7 +320,7 @@ This repository serves as a centralized index to help security professionals, de
 
 ### 🔄 CI/CD & Supply Chain
 
-![CI/CD](https://img.shields.io/badge/Labs-7-blue.svg)
+![CI/CD](https://img.shields.io/badge/Labs-7-0ea5e9?style=for-the-badge)
 
 ---
 
@@ -368,7 +376,7 @@ This repository serves as a centralized index to help security professionals, de
 <a id="kubernetes"></a>
 ### ☸️ Kubernetes
 
-![Kubernetes](https://img.shields.io/badge/Labs-2-blue.svg)
+![Kubernetes](https://img.shields.io/badge/Labs-2-0ea5e9?style=for-the-badge)
 
 ---
 
@@ -388,7 +396,7 @@ This repository serves as a centralized index to help security professionals, de
 
 ### 💻 Language-Specific & Code Review
 
-![Language](https://img.shields.io/badge/Labs-8-blue.svg)
+![Language](https://img.shields.io/badge/Labs-8-0ea5e9?style=for-the-badge)
 
 ---
 
@@ -450,7 +458,7 @@ This repository serves as a centralized index to help security professionals, de
 
 ### 📚 Collections & Directories
 
-![Collections](https://img.shields.io/badge/Labs-20-blue.svg)
+![Collections](https://img.shields.io/badge/Labs-20-0ea5e9?style=for-the-badge)
 
 ---
 
@@ -599,8 +607,8 @@ This repository serves as a centralized index to help security professionals, de
 
 > This section lists recommended open source security tools for testing and analyzing the vulnerable labs in this catalog. All tools listed are open source and freely available.
 
-![Tools](https://img.shields.io/badge/Total%20Tools-40-orange.svg)
-![Open Source](https://img.shields.io/badge/Open%20Source-100%25-green.svg)
+![Tools](https://img.shields.io/badge/Total%20Tools-40-a855f7?style=for-the-badge&logo=hackthebox&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open%20Source-100%25-22c55e?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
 ---
 
@@ -1030,7 +1038,7 @@ This catalog is maintained as a community resource for security education and tr
 
 This repository is for **educational purposes only**. The vulnerable applications contained herein should only be used in **isolated, controlled environments**. The maintainers are not responsible for any misuse of these resources.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Educational Use Only](https://img.shields.io/badge/Educational-Use%20Only-red.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge&logo=spdx&logoColor=white)](LICENSE)
+[![Educational Use Only](https://img.shields.io/badge/Educational-Use%20Only-ef4444?style=for-the-badge&logo=readthedocs&logoColor=white)](LICENSE)
 
 </div>
