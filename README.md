@@ -885,7 +885,7 @@ This repository serves as a centralized index to help security professionals, de
 
 - **Use cases**: AWS security auditing, compliance checking, security assessment
 - **Repository**: [GitHub](https://github.com/prowler-cloud/prowler)
-- **Website**: [prowler.pro](https://prowler.pro/)
+- **Website**: [prowler.pro](https://prowler.com/)
 
 #### CloudSploit
 
