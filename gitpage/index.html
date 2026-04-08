@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AppSec & DevSecOps Training Labs — catálogo premium de laboratórios intencionalmente vulneráveis para treinamento, validação de ferramentas e engenharia de segurança aplicada." />
+  <meta name="theme-color" content="#0c124c" />
+  <title>AppSec & DevSecOps Training Labs | Laboratório de Excelência em Segurança</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <div class="bg-canvas-wrap" aria-hidden="true">
+    <canvas id="bg-canvas"></canvas>
+    <div class="bg-gradient-orbs"></div>
+    <div class="bg-grid"></div>
+    <div class="bg-scanlines"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo-lockup">
+        <span class="logo-glyph" aria-hidden="true"></span>
+        <span class="logo-text">
+          <span class="logo-title">Training Labs</span>
+          <span class="logo-sub">AppSec · DevSecOps</span>
+        </span>
+      </a>
+      <nav class="nav-main" aria-label="Navegação principal">
+        <a href="#sobre">Projeto</a>
+        <a href="#capacidades">Capacidades</a>
+        <a href="#arquitetura">Arquitetura</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#pilares">Pilares</a>
+        <a href="#roadmap">Evolução</a>
+      </nav>
+      <a class="btn btn-ghost header-cta" href="https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div id="mobile-nav" class="mobile-nav" hidden>
+      <a href="#sobre">Projeto</a>
+      <a href="#capacidades">Capacidades</a>
+      <a href="#arquitetura">Arquitetura</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#showcase">Showcase</a>
+      <a href="#pilares">Pilares</a>
+      <a href="#roadmap">Evolução</a>
+      <a href="https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs" target="_blank" rel="noopener noreferrer">Repositório</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-depth="wrapper">
+          <p class="hero-kicker" data-reveal>
+            <span class="kicker-pulse"></span>
+            Catálogo profissional · 66 laboratórios curados
+          </p>
+          <h1 class="hero-title" data-depth="title">
+            <span class="title-line">AppSec &amp; DevSecOps</span>
+            <span class="title-line title-accent">Training Labs</span>
+          </h1>
+          <p class="hero-lead" data-reveal>
+            Uma plataforma de referência que reúne aplicações e ambientes intencionalmente vulneráveis — organizados para
+            <strong>treino técnico real</strong>, validação de ferramentas e narrativa de portfólio em engenharia de segurança aplicada.
+          </p>
+          <div class="hero-actions" data-reveal>
+            <a class="btn btn-primary" href="#capacidades">Explorar capacidades</a>
+            <a class="btn btn-secondary" href="https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs" target="_blank" rel="noopener noreferrer">Abrir repositório</a>
+            <a class="btn btn-link" href="https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs#-table-of-contents" target="_blank" rel="noopener noreferrer">Documentação no README</a>
+          </div>
+          <ul class="hero-stats" data-reveal>
+            <li><strong>66+</strong><span>Labs indexados</span></li>
+            <li><strong>9</strong><span>Verticais de treino</span></li>
+            <li><strong>OWASP</strong><span>Threat-aware tags</span></li>
+          </ul>
+        </div>
+        <div class="hero-visual" data-depth="visual" aria-hidden="true">
+          <div class="hero-globe">
+            <div class="orbit orbit-slow"></div>
+            <div class="orbit orbit-fast"></div>
+            <div class="core-ring">
+              <span class="core-label">LAB_MESH</span>
+              <div class="core-glow"></div>
+            </div>
+            <div class="floating-card fc-1"><span>SAST</span></div>
+            <div class="floating-card fc-2"><span>DAST</span></div>
+            <div class="floating-card fc-3"><span>CI/CD</span></div>
+            <div class="floating-card fc-4"><span>Cloud</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" data-reveal>
+        <span>Scroll</span>
+        <span class="scroll-line"></span>
+      </div>
+    </section>
+
+    <section id="sobre" class="section section-about">
+      <div class="container narrow">
+        <header class="section-head" data-reveal>
+          <span class="section-tag">Visão do projeto</span>
+          <h2 class="section-title">Um laboratório de portfólio com <em>densidade técnica</em></h2>
+          <p class="section-sub">
+            Este repositório não é uma lista casual: é um <strong>índice centralizado e profissional</strong> de aplicações deliberadamente inseguras,
+            mapeadas por objetivo de treino — da exploração à remediação, da revisão de código à segurança em pipeline.
+          </p>
+        </header>
+        <div class="about-grid">
+          <article class="glass-panel about-card" data-reveal data-tilt>
+            <h3>Propósito</h3>
+            <p>
+              Conectar profissionais de segurança, desenvolvedores e pesquisadores a labs alinhados ao que realmente importa no dia a dia:
+              vulnerabilidades práticas, superfícies modernas (web, API, mobile, cloud) e disciplinas DevSecOps.
+            </p>
+          </article>
+          <article class="glass-panel about-card" data-reveal data-tilt>
+            <h3>Execução responsável</h3>
+            <p>
+              Todo o conteúdo é pensado para <strong>ambientes isolados</strong>. A mensagem é clara: treino controlado, evidências documentadas,
+              sem exposição indevida — postura madura de quem entende risco operacional.
+            </p>
+          </article>
+          <article class="glass-panel about-card" data-reveal data-tilt>
+            <h3>Valor de portfólio</h3>
+            <p>
+              Demonstre domínio sobre AppSec e DevSecOps com um artefato vivo: curadoria, taxonomia, tags de treino (SAST, DAST, SCA, Supply Chain…)
+              e narrativa técnica consistente com o mercado.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="capacidades" class="section section-capabilities">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="section-tag">Capacidades</span>
+          <h2 class="section-title">O que você treina com este ecossistema</h2>
+          <p class="section-sub">
+            Cards projetados para hover rico, brilho contextual e sensação de profundidade — cada capacidade mapeia para cenários reais de laboratório.
+          </p>
+        </header>
+        <div class="cards-grid">
+          <article class="cap-card" data-reveal data-tilt>
+            <div class="cap-icon" aria-hidden="true">01</div>
+            <h3>AppSec labs</h3>
+            <p>Web, APIs e superfícies clássicas e modernas com foco em exploração, validação e hardening.</p>
+            <span class="cap-glow"></span>
+          </article>
+          <article class="cap-card" data-reveal data-tilt>
+            <div class="cap-icon" aria-hidden="true">02</div>
+            <h3>DevSecOps labs</h3>
+            <p>CI/CD, cadeia de suprimentos e integração contínua como vetor de risco — do commit ao deploy.</p>
+            <span class="cap-glow"></span>
+          </article>
+          <article class="cap-card" data-reveal data-tilt>
+            <div class="cap-icon" aria-hidden="true">03</div>
+            <h3>Vulnerabilidades práticas</h3>
+            <p>Cenários intencionais para reproduzir falhas, testar hipóteses e construir evidências.</p>
+            <span class="cap-glow"></span>
+          </article>
+          <article class="cap-card" data-reveal data-tilt>
+            <div class="cap-icon" aria-hidden="true">04</div>
+            <h3>Exploração &amp; remediação</h3>
+            <p>Do proof-of-concept à correção: narrativa completa para times que precisam fechar o ciclo.</p>
+            <span class="cap-glow"></span>
+          </article>
+          <article class="cap-card" data-reveal data-tilt>
+            <div class="cap-icon" aria-hidden="true">05</div>
+            <h3>Validação &amp; evidências</h3>
+            <p>Ambiente ideal para calibrar scanners SAST/DAST/SCA e registrar achados com rigor.</p>
+            <span class="cap-glow"></span>
+          </article>
+          <article class="cap-card" data-reveal data-tilt>
+            <div class="cap-icon" aria-hidden="true">06</div>
+            <h3>Aprendizado guiado</h3>
+            <p>Trilhas por categoria e tags de foco que aceleram o discovery do lab certo para cada objetivo.</p>
+            <span class="cap-glow"></span>
+          </article>
+          <article class="cap-card" data-reveal data-tilt>
+            <div class="cap-icon" aria-hidden="true">07</div>
+            <h3>Secure SDLC</h3>
+            <p>Conecte revisão de código, modelagem de ameaças e testes de segurança ao ciclo de desenvolvimento.</p>
+            <span class="cap-glow"></span>
+          </article>
+          <article class="cap-card" data-reveal data-tilt>
+            <div class="cap-icon" aria-hidden="true">08</div>
+            <h3>Automação em pipeline</h3>
+            <p>Pratique gates de segurança, políticas e integração de ferramentas sem simular o trivial.</p>
+            <span class="cap-glow"></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="arquitetura" class="section section-arch">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="section-tag">Arquitetura conceitual</span>
+          <h2 class="section-title">Como o catálogo se organiza</h2>
+          <p class="section-sub">
+            Uma visão em camadas: do índice curado às disciplinas de teste — clara para apresentações técnicas e stakeholders.
+          </p>
+        </header>
+        <div class="arch-diagram" data-reveal>
+          <div class="arch-layer arch-top">
+            <span class="arch-node pulse">Catálogo central</span>
+            <span class="arch-connector"></span>
+          </div>
+          <div class="arch-layer arch-middle">
+            <span class="arch-node">Web · API · Mobile</span>
+            <span class="arch-node">Cloud · K8s</span>
+            <span class="arch-node">CI/CD · Supply Chain</span>
+            <span class="arch-node">Code review &amp; linguagens</span>
+          </div>
+          <div class="arch-layer arch-base">
+            <span class="arch-pill">SAST</span>
+            <span class="arch-pill">DAST</span>
+            <span class="arch-pill">SCA</span>
+            <span class="arch-pill">Pentest</span>
+            <span class="arch-pill">Threat modeling</span>
+            <span class="arch-pill">Secrets &amp; IaC</span>
+          </div>
+          <svg class="arch-svg" viewBox="0 0 800 420" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+            <defs>
+              <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#08b98b" stop-opacity="0" />
+                <stop offset="50%" stop-color="#08b98b" stop-opacity="0.9" />
+                <stop offset="100%" stop-color="#08b98b" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <path class="arch-line arch-line-a" d="M 400 48 L 400 120" />
+            <path class="arch-line arch-line-b" d="M 400 200 L 160 280" />
+            <path class="arch-line arch-line-b" d="M 400 200 L 320 280" />
+            <path class="arch-line arch-line-b" d="M 400 200 L 480 280" />
+            <path class="arch-line arch-line-b" d="M 400 200 L 640 280" />
+            <path class="arch-line arch-line-c" d="M 400 320 L 400 380" />
+            <circle class="arch-dot" cx="400" cy="48" r="4" />
+            <circle class="arch-dot" cx="400" cy="200" r="4" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="diferenciais" class="section section-diff">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="section-tag">Diferenciais</span>
+          <h2 class="section-title">Por que não é “só mais um lab”</h2>
+        </header>
+        <div class="diff-columns">
+          <div class="diff-sticky glass-panel" data-reveal>
+            <h3>Profundidade em AppSec + DevSecOps</h3>
+            <p>
+              A curadoria atravessa fronteiras: além de aplicações web clássicas, há API, mobile, cloud e segurança em entrega de software —
+              o combo que define times modernos de produto e plataforma.
+            </p>
+          </div>
+          <ul class="diff-list">
+            <li class="diff-item" data-reveal>
+              <span class="diff-num">A</span>
+              <div>
+                <strong>Taxonomia e legendas de treino</strong>
+                <p>Tags como SAST, DAST, Supply Chain e Threat Modeling ajudam a escolher o lab certo em segundos.</p>
+              </div>
+            </li>
+            <li class="diff-item" data-reveal>
+              <span class="diff-num">B</span>
+              <div>
+                <strong>Organização editorial</strong>
+                <p>Estrutura de catálogo pensada para leitura humana, não apenas para listar repositórios.</p>
+              </div>
+            </li>
+            <li class="diff-item" data-reveal>
+              <span class="diff-num">C</span>
+              <div>
+                <strong>Âncoras upstream</strong>
+                <p>Cada entrada aponta para a documentação oficial do projeto — mantém a manutenção sustentável.</p>
+              </div>
+            </li>
+            <li class="diff-item" data-reveal>
+              <span class="diff-num">D</span>
+              <div>
+                <strong>Narrativa de autoridade</strong>
+                <p>Ideal para evidências em processos seletivos, talks e portfólio técnico de alto nível.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="showcase" class="section section-showcase">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="section-tag">Showcase</span>
+          <h2 class="section-title">Módulos e frentes do lab mesh</h2>
+          <p class="section-sub">Visualização premium dos eixos do catálogo — motion, camadas e microdetalhes.</p>
+        </header>
+        <div class="showcase-track">
+          <article class="show-card show-card-lg" data-reveal data-tilt>
+            <div class="show-card-inner">
+              <span class="show-badge">Web surface</span>
+              <h3>OWASP-grade applications</h3>
+              <p>Juice Shop, WebGoat, DVWA e aplicações correlatas — Top 10 e além, com foco em exploração controlada.</p>
+              <div class="show-meta"><span>14 labs</span><span class="show-dot"></span><span>DAST · Pentest</span></div>
+            </div>
+            <div class="show-shine"></div>
+          </article>
+          <div class="show-row">
+            <article class="show-card" data-reveal data-tilt>
+              <span class="show-badge">API &amp; Mobile</span>
+              <h3>Superfícies distribuídas</h3>
+              <p>GraphQL, REST vulnerável, apps híbridos — treino realista de API security.</p>
+              <div class="show-meta"><span>10 labs</span></div>
+            </article>
+            <article class="show-card" data-reveal data-tilt>
+              <span class="show-badge">Cloud &amp; K8s</span>
+              <h3>Infra como alvo</h3>
+              <p>Ambientes cloud, orquestração e serviços expostos — cloud-native security.</p>
+              <div class="show-meta"><span>7 labs</span></div>
+            </article>
+          </div>
+          <div class="show-row">
+            <article class="show-card" data-reveal data-tilt>
+              <span class="show-badge">CI/CD</span>
+              <h3>Pipelines sob ataque</h3>
+              <p>Supply chain, secrets em build, integrações — segurança onde o código vira release.</p>
+              <div class="show-meta"><span>7 labs</span></div>
+            </article>
+            <article class="show-card show-card-wide" data-reveal data-tilt>
+              <span class="show-badge">Collections</span>
+              <h3>Diretórios &amp; índices OWASP</h3>
+              <p>Hubs que agregam cenários — velocidade de discovery para pesquisa e ensino.</p>
+              <div class="show-meta"><span>20 labs</span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pilares" class="section section-pillars">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="section-tag">Pilares técnicos</span>
+          <h2 class="section-title">Stack conceitual e disciplinas</h2>
+        </header>
+        <div class="pillars-orbit">
+          <div class="pillar-center" data-reveal>
+            <span>SecEngine</span>
+            <small>Core mindset</small>
+          </div>
+          <div class="pillar-orbit-ring" aria-hidden="true"></div>
+          <ul class="pillar-tags">
+            <li data-reveal style="--d: 0s">AppSec</li>
+            <li data-reveal style="--d: 0.05s">DevSecOps</li>
+            <li data-reveal style="--d: 0.1s">Secure SDLC</li>
+            <li data-reveal style="--d: 0.15s">CI/CD security</li>
+            <li data-reveal style="--d: 0.2s">Code review</li>
+            <li data-reveal style="--d: 0.25s">Threat thinking</li>
+            <li data-reveal style="--d: 0.3s">Hardening</li>
+            <li data-reveal style="--d: 0.35s">Validação</li>
+            <li data-reveal style="--d: 0.4s">Evidências</li>
+            <li data-reveal style="--d: 0.45s">Labs práticos</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section section-roadmap">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="section-tag">Evolução</span>
+          <h2 class="section-title">Roadmap &amp; visão futura</h2>
+          <p class="section-sub">Timeline interativa com estados visuais — do que já solidifica autoridade ao que expande fronteira.</p>
+        </header>
+        <div class="timeline" data-reveal>
+          <div class="timeline-line" aria-hidden="true"></div>
+          <article class="timeline-item is-done">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card glass-panel">
+              <h3>Catálogo estruturado</h3>
+              <p>Índice com categorias, tags de treino e links upstream — base forte para navegação e estudo.</p>
+              <span class="timeline-status">Entregue</span>
+            </div>
+          </article>
+          <article class="timeline-item is-done">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card glass-panel">
+              <h3>Cobertura multi-superfície</h3>
+              <p>Web, API, mobile, cloud, CI/CD e coleções — narrativa alinhada ao mercado de plataforma.</p>
+              <span class="timeline-status">Entregue</span>
+            </div>
+          </article>
+          <article class="timeline-item is-active">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card glass-panel">
+              <h3>Expansão contínua</h3>
+              <p>Novos labs e refinamento de legendas à medida que o ecossistema open-source evolui.</p>
+              <span class="timeline-status">Em curso</span>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card glass-panel">
+              <h3>Trilhas guiadas</h3>
+              <p>Paths sugeridos por perfil — da revisão de código ao pipeline, com checkpoints de evidência.</p>
+              <span class="timeline-status">Visão</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cta">
+      <div class="container">
+        <div class="cta-panel glass-panel" data-reveal data-tilt>
+          <div class="cta-copy">
+            <h2>Clone, isole, treine, documente</h2>
+            <p>Uma peça de portfólio que mostra curadoria, visão de segurança e maturidade operacional — antes mesmo do primeiro exploit.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+            <a class="btn btn-secondary" href="#top">Voltar ao topo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="logo-glyph sm" aria-hidden="true"></span>
+        <div>
+          <strong>AppSec &amp; DevSecOps Training Labs</strong>
+          <p>Catálogo curadoria-first · MIT · uso apenas em ambiente controlado.</p>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Links do rodapé">
+        <a href="https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs" target="_blank" rel="noopener noreferrer">Repositório</a>
+        <a href="https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs/blob/main/README.md" target="_blank" rel="noopener noreferrer">README</a>
+        <a href="https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">Licença</a>
+      </nav>
+      <p class="footer-note">
+        GitHub Pages · landing dedicada · <span id="year"></span> · Lucas Henrique Grifoni
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
