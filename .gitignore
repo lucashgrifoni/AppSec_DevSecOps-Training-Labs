@@ -31,3 +31,6 @@ new_projects_data.json
 test_*.py
 *_test.py
 
+
+# Submodule working copies left from the pre-catalog design (local only)
+labs/
