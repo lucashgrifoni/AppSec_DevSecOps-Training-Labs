@@ -34,3 +34,4 @@ test_*.py
 
 # Submodule working copies left from the pre-catalog design (local only)
 labs/
+.gitmodules
