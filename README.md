@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/lucashgrifoni/AppSec_DevSecOps-Training-Labs">
-    <img alt="Total Labs" src="https://img.shields.io/badge/Total%20Labs-66-0ea5e9?style=for-the-badge" />
+    <img alt="Total Labs" src="https://img.shields.io/badge/Total%20Labs-65-0ea5e9?style=for-the-badge" />
   </a>
   <a href="LICENSE">
     <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source-Yes-22c55e?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
@@ -39,7 +39,7 @@ This repository serves as a centralized index to help security professionals, de
   * [☁️ Cloud Infrastructure](#cloud-infrastructure) (5 labs)
   * [🔄 CI/CD & Supply Chain](#-cicd--supply-chain) (7 labs)
   * [☸️ Kubernetes](#kubernetes) (2 labs)
-  * [💻 Language-Specific & Code Review](#-language-specific--code-review) (8 labs)
+  * [💻 Language-Specific & Code Review](#-language-specific--code-review) (7 labs)
   * [📚 Collections & Directories](#-collections--directories) (20 labs)
 * [🛠️ Open Source Security Tools](#open-source-security-tools)
 * [🎯 Training Paths](#-training-paths)
@@ -396,7 +396,7 @@ This repository serves as a centralized index to help security professionals, de
 
 ### 💻 Language-Specific & Code Review
 
-![Language](https://img.shields.io/badge/Labs-8-0ea5e9?style=for-the-badge)
+![Language](https://img.shields.io/badge/Labs-7-0ea5e9?style=for-the-badge)
 
 ---
 
@@ -448,13 +448,6 @@ This repository serves as a centralized index to help security professionals, de
 
 - **Training focus**: `SAST` `Secure Code Review` `Multi-language`
 - **Upstream**: [GitHub](https://github.com/arall/vulnerabilities)
-
-#### Certified Red Team Python Analyst (CRPYA)
-
-> Python-based vulnerable application for red team training and code review.
-
-- **Training focus**: `SAST` `Secure Code Review` `Python` `Pentest`
-- **Upstream**: [GitHub](https://github.com/CyberSecurityUP/CRPYA)
 
 ### 📚 Collections & Directories
 
@@ -659,7 +652,7 @@ This repository serves as a centralized index to help security professionals, de
 - **Description**: Open source web application security scanner for finding vulnerabilities in web applications.
 - **Use cases**: DAST, automated security testing, API security testing
 - **Repository**: [GitHub](https://github.com/zaproxy/zaproxy)
-- **Website**: [owasp.org/www-project-zap](https://owasp.org/www-project-zap/)
+- **Website**: [zaproxy.org](https://www.zaproxy.org/)
 
 #### Burp Suite Community Edition
 
@@ -706,7 +699,7 @@ This repository serves as a centralized index to help security professionals, de
 
 - **Use cases**: Automated dependency updates, security alerts
 - **Repository**: [GitHub](https://github.com/dependabot/dependabot-core)
-- **Website**: [docs.github.com/dependabot](https://docs.github.com/dependabot)
+- **Website**: [docs.github.com/dependabot](https://docs.github.com/en/code-security/dependabot)
 
 ### Container Security
 
@@ -851,7 +844,7 @@ This repository serves as a centralized index to help security professionals, de
 
 - **Use cases**: Mobile app security testing, static and dynamic analysis
 - **Repository**: [GitHub](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
-- **Website**: [mobsf.github.io](https://mobsf.github.io/)
+- **Website**: [mobsf.github.io](https://mobsf.github.io/docs/)
 
 #### QARK
 
