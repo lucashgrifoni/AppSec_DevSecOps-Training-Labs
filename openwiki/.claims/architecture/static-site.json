@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:2b806408911af1608732fc67e989b8ee3fbbea2c02ea378bb6b0b8e9baf0816c",
+  "claims": [
+    {
+      "id": "claim_919d71264de7448796477f9720613969",
+      "statement": "The HTML loads the local stylesheet and script, alongside remote Google Fonts CSS.",
+      "evidence": [
+        {
+          "resource": "repo://gitpage/index.html#L10-L13",
+          "version": "repo-lines-v1:sha256:206e70bebe7d248b72a2537b1e9272bb88b77d2de2be549e7445979da7e3c2e0:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNjA5OTc1ZjEzZWJkNzk4ZDY3YTA3ZmEwMmU2OGY1YjhlZmFlNzVlOWE2MmU1ODM3MWZmZThhYTVmYTU2Y2QyMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDdiYmU5NjVhOGI0ZGE3MGJiMjY1MWVmNjE1Njg4MDUyYjlkYWI0N2Y5ZjBkNGJmMmVhMzM4NjYwNWU3ODRhOCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZGM0M2RiMTFmNTFiOTRjZDBkMjU2MDNlY2YzOTFlMDdjMTJmMTA5NzE1MmEwYTY2NTMyMGMxNDUyZjg4YzE4ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTMwYjZjYzRmZTcxMDgxZGExNWEzZTVlZDk1Y2VmMzA4MTI2ZTcxNzM0MDQ3YWY4MDlkMGFhYzIwNGU2Njk3ZiJ9"
+        },
+        {
+          "resource": "repo://gitpage/index.html#L449-L459",
+          "version": "repo-lines-v1:sha256:a6a77f20480e5e2f1bc2825ca0dd159fad3f21cb80cbc49d35424ea356764560:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwZjVkMzVkMmE1Yzk5OTZkYmExMjFjMDIzZWRkNmRmYTI1OWQxMDMwMjM0MTA0YjAxYjJhODg3ZTNjNjRkOWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU4MWRiMWJmMjg1Njg2NzZkMGRhNTg2NGJlMDkxZDBhYWM2YWM4Y2JmMmE5ZmQwZDE0NjIwNmVhNDUzMDM2YjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNkZDVmYTZmMmRjYTkyOTg0YTMxMmQzOTFmNWFiMjUwNTMxNzE1NTc1NmJjOTVmYjM1OTYwOWQ3MWNlZDhmYTYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoyLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAyZWQ1NGVkYzQyZmJiYmMzNjk4OGIyYTE4NGI2N2U0OTU2OGJlNDgwNzgzMjUzOGJhOWI3ZWRkYTUzNzQ0ZDgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_03ba348781124641b54f86aaffba946e",
+      "statement": "The client reads reduced-motion preference and caps canvas DPR at 2, with zero reduced-motion nodes versus 72 otherwise.",
+      "evidence": [
+        {
+          "resource": "repo://gitpage/js/main.js#L150-L157",
+          "version": "repo-lines-v1:sha256:513ad2f2e2c17099727073142510a80021a1a1de85455c42e75cd0816ed7f46a:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYmExMDJhZmE5ZjA1Yjk4NGQzMTg2ZGM0ODNjODlmOTMxNGUxZTQyZTdkOGExMWNlOWQxZjljNmNjOTEwNmI0OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZmJkMTAyZmU2ZDE4ZWQzOTRlOWNlYTlmYjllNTg1YjQ1NmFkNmYyZTdhMTM2YTFkMTZhOWVmMWY2NjUyOGExZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDNkNjkwNWQyMzU2ZTViNzlkMDk5NDhkNWMzYzNlZTdjMzZiZTg0ZTE3MzEwNTVkNGY4OGY2NTI1NTliMTMzMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNjA0MDExM2I3MmRhY2ExY2NiNGJkZmUzMzNiZmY0NTI0MDE4MmExYzBjZWVjMjkyODIyNDcyODhhZmEwZjc4NyJ9"
+        },
+        {
+          "resource": "repo://gitpage/js/main.js#L8-L16",
+          "version": "repo-lines-v1:sha256:b1cdc5ee3db26be2d9d2647d9535bd2da07cb9535a2666e509aed35500203e0b:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTQ3MjQ3YWFhMTZiODEzMjI1MmRmOTU3NTY3MTg2NWU2OGY0YTI0YjJhZDA3MjAyZThmZWQ3MWU2MzlmMDgyOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMjdlNTc4OGQ1ZDlkNzNkMjRhODFkYmMwYTVhNzRiZmE4MmM5YzNiM2FmOTllNTJhZjc5NmU5MGI0NjhhOGEzZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNmZlMjQ0MDUzODRkZDdmY2M5MGQ5YWVjMWE5ZWM4YmViOTc0YTJlYTRhYTE1MTljYmNjYWZlNGZkNjgzYmM5NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTllYzJkNjU4ZmI1ODNiOTk1N2I5ZDEyMDUyMzk3YjkyODZkYjk3OTIxMjRiMDRiYzJlNTZmOWIyZGEzYzNjOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c9656e0d5d2c489997da0257c7794a58",
+      "statement": "The Pages workflow has main-branch push path filters plus manual dispatch and deploys the gitpage directory with contents-read/pages-write/id-token-write permissions.",
+      "evidence": [
+        {
+          "resource": "repo://.github/workflows/deploy-github-pages.yml",
+          "version": "repo-file-v1:sha256:9e41e1e377b3e79ad5c522c4a7f527e8ff3cbf2068d798bdb2d34627eaea6f0b"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.2",
+    "at": "2026-10-14T22:06:38.476Z"
+  }
+}

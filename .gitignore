@@ -35,3 +35,11 @@ test_*.py
 # Submodule working copies left from the pre-catalog design (local only)
 labs/
 .gitmodules
+
+# Local OpenWiki integration and generated scheduling scaffold
+/.agents/skills/openwiki/
+/.codex/
+/.github/workflows/openwiki-update.yml
+/AGENTS.md
+/CLAUDE.md
+/GEMINI.md

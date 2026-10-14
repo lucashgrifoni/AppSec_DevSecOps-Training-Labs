@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:590866c0890a03239b0bcf254d176347a731cefd1fbd98c7610bb229c28fa593",
+  "claims": [
+    {
+      "id": "claim_d0ec39622a7b4667892a07c433f68bfa",
+      "statement": "CI validates pull requests and pushes to main on Ubuntu 24.04 and Windows using a read-only token, pinned actions, JavaScript syntax checks and the local site validator.",
+      "evidence": [
+        {
+          "resource": "repo://.github/workflows/ci.yml",
+          "version": "repo-file-v1:sha256:82bae0526c08bd1178a917791ebbd9ae358194ca9a630e417463c79c4b7beae0"
+        }
+      ]
+    },
+    {
+      "id": "claim_5fb29ebbe1ec41b1acf453ba7a1e8334",
+      "statement": "The local site validator requires four static assets and checks document language, unique IDs, aria-controls, literal getElementById bindings, local HTML and CSS resources, documentation links and SVG XML, failing on missing targets.",
+      "evidence": [
+        {
+          "resource": "repo://.github/scripts/validate_site.py",
+          "version": "repo-file-v1:sha256:8ce70da1b9b9942399266d75694c9151996a0ad0573efc297fbccc4d74232075"
+        }
+      ]
+    },
+    {
+      "id": "claim_81b349ec78e74e4580a1ca9accb2343e",
+      "statement": "The site validator reads local files and skips external URLs, while Pages deployment uses a separate workflow with main-branch path filters or manual dispatch.",
+      "evidence": [
+        {
+          "resource": "repo://.github/scripts/validate_site.py",
+          "version": "repo-file-v1:sha256:8ce70da1b9b9942399266d75694c9151996a0ad0573efc297fbccc4d74232075"
+        },
+        {
+          "resource": "repo://.github/workflows/deploy-github-pages.yml",
+          "version": "repo-file-v1:sha256:9e41e1e377b3e79ad5c522c4a7f527e8ff3cbf2068d798bdb2d34627eaea6f0b"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.2",
+    "at": "2026-10-14T22:12:01.834Z"
+  }
+}
