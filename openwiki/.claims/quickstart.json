@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:22c1a5b3c9b817c7430cae9c6bf973d7f2486db94afe99235ed999fe7fc7060a",
+  "claims": [
+    {
+      "id": "claim_4c13f5d8dbc84ac384420b559d038521",
+      "statement": "The catalog directs users to upstream project documentation for installation and requires isolated training environments.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L56-L66",
+          "version": "repo-lines-v1:sha256:ff9f47f2f0a5f35897d2f4e112375a876acef67492ef11cb2f7ff95848f49f0f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3NThlY2ZlNDI3YzdkOThiODM5NjIyYmVjN2I1MzhlYmI4Mzg4NWRiNTY4OTRiY2U4ODU0MmVmOTc1ZjkzOGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYzZTc2ZTM0MmE3MzVhN2IzOTQwZDIxZDUyN2U1NGRlY2JhMjgzMWUzNjA1ODZmMWVmMGM4ZGQ1ZDYzMmZjYmUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjljMWNhNDRmZGYwNWY2Y2RmNmQzMzNhZGRmOWVmNzBkZjFlZTc4MDA1NzRhZjc3ZjRiMjRhZjY1MDMwYzU3ZGEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b47a409b49ba4fd3829acb891a3a7ffd",
+      "statement": "The landing page guide describes a static self-contained site with no npm-package dependency and remote Google Fonts.",
+      "evidence": [
+        {
+          "resource": "repo://gitpage/README.md#L3-L23",
+          "version": "repo-lines-v1:sha256:dbda2e220130e9624ed159315920f449b7e9b9ad91929b8e7f7af2388a3d5591:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjViOGFmNjgyNjYzNDcxOTgxYWJiYTM2YzhiYjQ5MmM4MTkzNmY3MDM2ZjcwYTUwMzZhMTkyODJjNTZkMWVhMTYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoyLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMwYTI5ZWZhNmIxZWEyMmM3MDUzMzI1Y2NjOTQ2OTI0MGUzOTNkZDRjODYyZTA2NmVkZDk2NWMyOTMxM2E2ZjYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBmNjI0OWQyMzc5Mzc4MTNiZDU4MmVmMDYwMGQ2YzIyODVmM2UzNzM2ZjA2M2M4YmZmZmNiNDgzZjNhYmNhZGIifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.2",
+    "at": "2026-10-14T18:50:09.040Z"
+  }
+}

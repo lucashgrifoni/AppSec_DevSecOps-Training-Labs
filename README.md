@@ -1035,3 +1035,7 @@ This repository is for **educational purposes only**. The vulnerable application
 [![Educational Use Only](https://img.shields.io/badge/Educational-Use%20Only-ef4444?style=for-the-badge&logo=readthedocs&logoColor=white)](LICENSE)
 
 </div>
+
+## Repository wiki
+
+[Source-linked repository guide](openwiki/quickstart.md) · [OpenWiki setup and maintenance](docs/openwiki.md).
