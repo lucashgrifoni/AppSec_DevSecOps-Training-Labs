@@ -5,7 +5,7 @@ description: "Trace the static assets, motion preferences and path-filtered GitH
 tags: ["static-site","pages","accessibility"]
 verified:
   - by: openwiki/0.7.2
-    at: 2026-10-14T18:50:09.040Z
+    at: 2026-10-14T22:06:38.476Z
 sources:
   - id: openwiki-source-6d8a2d3a27012fbaacf0c3d3
     resource: repo://.github/workflows/deploy-github-pages.yml
